@@ -1,0 +1,846 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 450,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "biIREAAAQBAJ",
+      "etag": "JKguBZoL7P4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/biIREAAAQBAJ",
+      "volumeInfo": {
+        "title": "LEGO The Hobbit",
+        "authors": [
+          "Jacek Hałas"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2020-12-27",
+        "description": "LEGO The Hobbit w 10 prostych krokach jest poradnikiem do gry LEGO The Hobbit adresowanym w głównej mierze do osób rozpoczynających swoją przygodę z wirtualnym Śródziemiem zbudowanym ze słynnych duńskich klocków. Niniejszy poradnik przedstawia wszystkie najważniejsze zagadnienia i zależności gry. Ich znajomość może się okazać bardzo pomocna w sprawnym zaliczaniu kolejnych etapów, poprawnej eksploracji rozbudowanego otwartego świata, jak i w odnajdywaniu sekretów, których w grze jest jeszcze więcej niż w poprzednich produkcjach studia Traveller's Tales. Pierwszy rozdział poradnika koncentruje się na głównym wątku fabularnym gry, informując w jaki sposób można przystępować do kolejnych etapów i na jakich zasadach się je powtarza. Tematem przewodnim drugiego rozdziału są wszystkie kwestie powiązane ze Śródziemiem, po którym pomiędzy głównymi misjami możemy się swobodnie przemieszczać. Trzeci rozdział poradnika wyjaśnia dokładnie reguły interakcji z otoczeniem, wielokrotnie utrudnianej przez konieczność dysponowania określonymi postaciami lub przedmiotami. W czwartym rozdziale znalazły się informacje na temat wrogów oraz wszelakich innych zagrożeń czyhających na głównych bohaterów. Piąty rozdział poradnika skupia się na temacie wykorzystywania opcji kooperacji do omijania przeszkód czy pokonywania wrogów. Głównym tematem szóstego rozdziału poradnika są kojarzone z serią LEGO ćwieki (Study), czyli różnokolorowe monety wykorzystywane m.in. do kupowania nowych postaci. Siódmy rozdział informuje o sposobach pozyskiwania oraz o znaczeniu różnych odmian surowców. W ósmym rozdziale znalazło się zestawienie najczęściej występujących mini–gier i dla każdej z nich przygotowano instrukcję działania oraz szereg podpowiedzi. Dziewiąty rozdział koncentruje się na jednym z najważniejszych elementów gry, a mianowicie na znajdźkach (sekretach). Z ostatniego dziesiątego rozdziału możesz dowiedzieć się, co należy zrobić, by zaliczyć grę w 100 procentach. W grze LEGO The Hobbit przenosimy się do rozbudowanego świata zbudowanego w całości z klocków. Fabuła tej produkcji bazuje na słynnej powieści autorstwa J.R.R. Tolkiena oraz na filmowej trylogii Petera Jacksona, pozwalając na prześledzenie wszystkich najważniejszych wydarzeń. Krok 1: Główny wątek fabularny W rozdziale tym odnajdziesz wszystkie podstawowe informacje na temat etapów głównej linii fabularnej gry. Wyjaśnione jest to w jaki sposób przystępuje się do kolejnych misji, jak można je najłatwiej powtarzać i kiedy na taki krok najlepiej jest się decydować. Krok 2: Śródziemie i jego eksploracja Rozdział ten koncentruje się w całości na Śródziemiu i na możliwości jego swobodnego przemierzania w przerwach pomiędzy zaliczaniem głównych etapów. Dowiesz się między innymi na temat tego jak łatwo i szybko podróżować pomiędzy oddalonymi od siebie lokacjami oraz jakie atrakcje czekają na bohaterów i kiedy stają się one dostępne. Krok 3: Interakcja z otoczeniem W rozdziale tym znalazły się szczegółowe informacje na temat znaczenia oraz sposobów interakcji z otoczeniem. Szczególny nacisk położony został na wyjaśnienie kwestii «niedostępności» niektórych elementów otoczenia powodowanej przez brak odpowiednich postaci lub przedmiotów. Krok 4: Wrogowie i inne zagrożenia Rozdział ten informuje przede wszystkim o wrogach napotykanych w świecie gry. Oprócz tego znalazły się w nim informacje na temat innych zagrożeń czyhających na bohaterów i mogących pozbawiać ich serduszek paska zdrowia (pułapki, upadki w przepaść itp.). Krok 5: Współpraca W rozdziale tym zamieszczono informacje na temat działania w kooperacji (z komputerowym sojusznikiem lub z żywym graczem), niezbędnej do rozwiązywania wielu zagadek i pokonywania niektórych silniejszych przeciwników. Krok 6: Ćwieki (monety) Głównym tematem tego rozdziału są ćwieki (Study), czyli monety odnajdywane w świecie gry (lokalna waluta). Dowiesz się o rodzajach ćwieków, jak również o najciekawszych sposobach ich pozyskiwania i wydawania. Krok 7: Surowce Rozdział ten poświęcony jest w całości surowcom, informując o wszystkich dostępnych ich rodzajach oraz o okolicznościach ich zdobywania. W rodziale wyjaśniona też została kwestia przeznaczania posiadanych surowców na budowę różnorakich obiektów i jest to o tyle ważne, że zbieranie surowców jest niejednokrotnie wymagane do awansowania w głównych etapach. Krok 8: Mini–gry Rozdział ten zestawia mini–gry najczęściej pojawiające się podczas zaliczania kolejnych głównych etapów oraz podczas swobodnej eksploracji Śródziemia. Do każdej z mini–gier dołączono opis jej podstawowych założeń oraz szereg wskazówek pomocnych w uzyskaniu jak najlepszego wyniku (jest to często premiowane dodatkowymi ćwiekami czy surowcami). Krok 9: Znajdźki (sekrety) W rozdziale tym znajdziesz informacje na temat znajdziek (sekretów), których w całej grze jest istne zatrzęsienie. Z lektury tego rozdziału dowiesz się o rodzajach dostępnych sekretów oraz o okolicznościach ich odnajdywania. Krok 10: Ukończenie gry w 100 procentach Rozdział ten zestawia czynności wymagane do ukończenia gry w stu procentach. Jest to premiowane (w zależności od posiadanej platformy sprzętowej) otrzymaniem osiągnięcia lub trofeum. LEGO The Hobbit w 10 prostych krokach stanowi doskonałe wprowadzenie do świata gry i jej mechaniki. Opracowanie opisuje zagadnienia związane z głównym wątkiem, eksploracją Śródziemia, unikaniem zagrożeń i napotykanymi wrogami, a także znajdźki i sekrety. LEGO The Hobbit w 10 prostych krokach zawiera poszukiwane przez graczy tematy i lokacje jak m.in. 8. Mini-gry 6. Ćwieki (Monety) 5. Współpraca 4. Wrogowie i inne zagrożenia 3. Interakcja z otoczeniem 2. Śródziemie i jego eksploracja 1. Główny wątek fabularny 7. Surowce 10. Ukończenie gry w 100 procentach 9. Znajdźki (Sekrety)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785042733833"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5042733833"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=biIREAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=biIREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=biIREAAAQBAJ&pg=PA3&dq=Hobbit&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=biIREAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=biIREAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=biIREAAAQBAJ&rdid=book-biIREAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/LEGO_The_Hobbit-sample-pdf.acsm?id=biIREAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=biIREAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "LEGO The \u003cb\u003eHobbit\u003c/b\u003e w 10 prostych krokach jest poradnikiem do gry LEGO The \u003cbr\u003e\n\u003cb\u003eHobbit\u003c/b\u003e adresowanym w głównej mierze do osób rozpoczynających swoją \u003cbr\u003e\nprzygodę z wirtualnym Śródziemiem zbudowanym ze słynnych duńskich klocków\u003cbr\u003e\n. Niniejszy&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2SYREAAAQBAJ",
+      "etag": "hExRj+aR9ds",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2SYREAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Hobbit",
+        "authors": [
+          "Artur Dąbrowski"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2020-12-27",
+        "description": "„The Hobbit” opowiada o wydarzeniach, które miały miejsce przed rozpoczęciem się trylogii „Władca Pierścieni”. W poradniku znajdziecie informacje o postaciach występujących w grze oraz jej dokładny opis przejścia. The Hobbit – poradnik do gry zawiera poszukiwane przez graczy tematy i lokacje jak m.in. Postacie – Krasnoludowie 03 – Troll-Hole Postacie – Główne Postacie – Elfowie 01 – An Unexpected Party cz.1 Postacie – Wrogowie Postacie – Ludzie 00 – Dream World 11 – The Clouds Burst cz.2 Postacie – Kreatury Informacja o grze The Hobbit jest przygodową grą akcji na motywach słynnej powieści J. R. R. Tolkiena, za której stworzenie odpowiada ekipa deweloperska studia Amaze Entertainment. Gracz wciela się w hobbita Bilbo Bagginsa i razem z Gandalfem oraz drużyną krasnoludów wyrusza w pełną niebezpieczeństw podróż. Rozgrywka łączy elementy charakterystyczne dla gier akcji, przygodowych, cRPG, zręcznościowych, logicznych, a nawet «skradanek». Gra The Hobbit, ciepło przyjęta zarówno przez krytyków, jak i graczy, to przedstawiciel gatunku przygodowych gier akcji. Tytuł wydany został w Polsce w 2004 roku i dostępny jest na platformach: PC, GBA, GCN, PS2, XBX. Wersja językowa oficjalnie dystrybuowana na terenie kraju to: pełna polska.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785042738227"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5042738223"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2SYREAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2SYREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=2SYREAAAQBAJ&pg=PA3&dq=Hobbit&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=2SYREAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2SYREAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=2SYREAAAQBAJ&rdid=book-2SYREAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/The_Hobbit-sample-pdf.acsm?id=2SYREAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2SYREAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Wstęp „The \u003cb\u003eHobbit\u003c/b\u003e” opowiada o wydarzeniach, które miały miejsce przed \u003cbr\u003e\nrozpoczęciem się trylogii „Władca Pierścieni”. Mam okazję zaprezentować wam \u003cbr\u003e\nporadnik do tejże gry, zawierający informacje o postaciach w niej występujących \u003cbr\u003e\noraz&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8ef3-s6fixIC",
+      "etag": "QMtsV179QTE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8ef3-s6fixIC",
+      "volumeInfo": {
+        "title": "I Am in Fact a Hobbit",
+        "subtitle": "An Introduction to the Life and Works of J. R. R. Tolkien",
+        "authors": [
+          "Perry C. Bramlett"
+        ],
+        "publisher": "Mercer University Press",
+        "publishedDate": "2003",
+        "description": "John Ronald Reuel Tolkien (1892-1973) was a brilliant writer who continues to leave his imaginative imprint on the mind and hearts of readers. He was once called the \"creative equivalent of a people,\" and for more than sixty years his Middle-earth tales have captivated and delighted readers of all ages from all over the world. The Hobbit has long been recognized as a children's fantasy classic, and the heroic romance the Lord of the Rings has been called the most influential story of all time. These stories have sold over 150 million copies worldwide and have been translated into over forty languages, and they, along with works such as the Silmarillion and the History of Middle-Earth, have convinced scores of readers and critics that Tolkien is the master writer of fantasy. Whether you've been a fan for years or you've just recently been hooked by the blockbuster Lord of the Rings movies, \"I Am in Fact a Hobbit\" is an excellent starting point into the life and work of J. R. R. Tolkien. Book jacket.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0865548943"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780865548947"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 254,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8ef3-s6fixIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8ef3-s6fixIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=8ef3-s6fixIC&pg=PA31&dq=Hobbit&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=8ef3-s6fixIC&dq=Hobbit&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/I_Am_in_Fact_a_Hobbit.html?hl=&id=8ef3-s6fixIC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/I_Am_in_Fact_a_Hobbit-sample-epub.acsm?id=8ef3-s6fixIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/I_Am_in_Fact_a_Hobbit-sample-pdf.acsm?id=8ef3-s6fixIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8ef3-s6fixIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sinclair Lewis&#39;s young son Michael (aged seven) called the \u003cb\u003eHobbit\u003c/b\u003e &quot;an adorable \u003cbr\u003e\nstory&quot; (for an advertising blurb for Houghton Mifflin), and Tolkien provided a \u003cbr\u003e\ndrawing of a \u003cb\u003ehobbit\u003c/b\u003e for Houghton Mifflin&#39;s fall advertising push, which was printed \u003cbr\u003e\nin&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "N_0VhzQKIIAC",
+      "etag": "1QugXOnQyXo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/N_0VhzQKIIAC",
+      "volumeInfo": {
+        "title": "Finding God in the Hobbit",
+        "authors": [
+          "Jim Ware"
+        ],
+        "publisher": "Tyndale House Publishers, Inc.",
+        "publishedDate": "2006",
+        "description": "Indulges readers with an exploration of the spiritual significance of J.R.R. Tolkien's famous children's classic.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1414305966"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781414305967"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 177,
+        "printType": "BOOK",
+        "categories": [
+          "Religion"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 13,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.1.5.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=N_0VhzQKIIAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=N_0VhzQKIIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=N_0VhzQKIIAC&pg=PA119&dq=Hobbit&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=N_0VhzQKIIAC&dq=Hobbit&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Finding_God_in_the_Hobbit.html?hl=&id=N_0VhzQKIIAC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Finding_God_in_the_Hobbit-sample-pdf.acsm?id=N_0VhzQKIIAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=N_0VhzQKIIAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "-THE \u003cb\u003eHOBBIT\u003c/b\u003e , CHAPTER 16 , &quot; A THIEF IN THE NIGHT &quot; HANDING IT OVER \u003cbr\u003e\nWinter was definitely drawing on . Bilbo could feel its approach as he sat there in \u003cbr\u003e\nthe middle of the November night , warming and drying himself at the big \u003cbr\u003e\ncampfire&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OlCHcjX0RT4C",
+      "etag": "bie8JFYxL68",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OlCHcjX0RT4C",
+      "volumeInfo": {
+        "title": "The Hobbit",
+        "authors": [
+          "J.R.R. Tolkien"
+        ],
+        "publisher": "Houghton Mifflin Harcourt",
+        "publishedDate": "2012-11-08",
+        "description": "This lavish gift edition of J.R.R. Tolkien's classic features cover art, illustrations, and watercolor paintings by the artist Alan Lee. Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon. Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum. Written for J.R.R. Tolkien's own children, The Hobbit has sold many millions of copies worldwide and established itself as a modern classic.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780544115552"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0544115554"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Young Adult Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 9,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.6.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OlCHcjX0RT4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OlCHcjX0RT4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=OlCHcjX0RT4C&pg=PT5&dq=Hobbit&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=OlCHcjX0RT4C&dq=Hobbit&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit.html?hl=&id=OlCHcjX0RT4C"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/The_Hobbit-sample-epub.acsm?id=OlCHcjX0RT4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/The_Hobbit-sample-pdf.acsm?id=OlCHcjX0RT4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OlCHcjX0RT4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In a hole in the ground there lived a \u003cb\u003ehobbit\u003c/b\u003e. Not a nasty, dirty, wet hole, filled with \u003cbr\u003e\nthe ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing \u003cbr\u003e\nin it to sit down on or to eat: it was a \u003cb\u003ehobbit\u003c/b\u003e-hole, and that means comfort."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ariQBAAAQBAJ",
+      "etag": "E8OBR8NC7ag",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ariQBAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Hobbit and TolkienÕs Mythology",
+        "subtitle": "Essays on Revisions and Influences",
+        "authors": [
+          "Bradford Lee Eden"
+        ],
+        "publisher": "McFarland",
+        "publishedDate": "2014-10-13",
+        "description": "At the 2013 \"Celebrating The Hobbit\" conference at Valparaiso University--marking the 75th anniversary of the book's publication and the first installment of Peter Jackson's Hobbit movies--two plenary papers were presented: \"Anchoring the Myth: The Impact of The Hobbit on Tolkien's Legendarium\" by John D. Rateliff provided numerous examples of The Hobbit's influence on Tolkien's legendarium; and \"Tolkien's French Connections\" by Verlyn Flieger discussed French influences on the development of Bilbo Baggins and his adventures. In discussions with the plenary speakers and other presenters, it became apparent that a book focusing on how The Hobbit influenced the subsequent development of Tolkien's legendarium was sorely needed. This collection of 15 previously unpublished essays fills that need. With Rateliff's and Flieger's papers included, the book presents two chapters on the Evolution of the Dwarven Race, two chapters on Durin's Day examining the Dwarven lunar calendar, and 11 chapters on themes exploring various topics on influences and revisions between The Hobbit and Tolkien's legendarium.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780786479603"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0786479604"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 244,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ariQBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ariQBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=ariQBAAAQBAJ&pg=PA4&dq=Hobbit&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=ariQBAAAQBAJ&dq=Hobbit&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit_and_Tolkien%C3%95s_Mythology.html?hl=&id=ariQBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ariQBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The \u003cb\u003eHobbit\u003c/b\u003e, specifically the Peter Jackson movie trilogy. Judy Ann Ford and \u003cbr\u003e\nRobin Anne Reid examine the polytemporality and medieval epic that Jackson \u003cbr\u003e\nhas infused into The Hob- bit:An UnexpectedJourney, the first movie in the trilogy."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KUSn4G6eiCUC",
+      "etag": "KPTLrrQlMA4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KUSn4G6eiCUC",
+      "volumeInfo": {
+        "title": "A Hobbit Devotional",
+        "subtitle": "Bilbo Baggins and the Bible",
+        "authors": [
+          "Ed Strauss"
+        ],
+        "publisher": "Barbour Publishing",
+        "publishedDate": "2012-09-01",
+        "description": "If you enjoy J. R. R. Tolkien--even if you're new to his classic stories--you'll love A Hobbit Devotional featuring 60 humorous, challenging, and encouraging devotionals. Soon to be a major motion picture, The Hobbit has fascinated readers for more than 70 years. Now, this tale of humble folk who overcome fear, discouragement, and despair through steadfastness, courage, and hope forms the basis of a brand-new devotional book. Each reading sketches a scene from The Hobbit, relates it to a contemporary life situation you might experience yourself, and brings in the teaching of a relevant Bible story or verse.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781620290880"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "162029088X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Religion"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 7,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.4.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=KUSn4G6eiCUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=KUSn4G6eiCUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=KUSn4G6eiCUC&pg=PT7&dq=Hobbit&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=KUSn4G6eiCUC&dq=Hobbit&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Hobbit_Devotional.html?hl=&id=KUSn4G6eiCUC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/A_Hobbit_Devotional-sample-epub.acsm?id=KUSn4G6eiCUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=KUSn4G6eiCUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "J.R.R. Tolkien wrote The \u003cb\u003eHobbit\u003c/b\u003e as a children&#39;s story, and its bumbling, \u003cbr\u003e\nlighthearted humor mingled with frightful images and grim realism made it an \u003cbr\u003e\ninstant classic when it appeared in 1937. When his publisher urged him to write a \u003cbr\u003e\nsequel,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "RdiRAQAAQBAJ",
+      "etag": "JM92p4QUz24",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RdiRAQAAQBAJ",
+      "volumeInfo": {
+        "title": "The New Zealand Hobbit Crisis",
+        "subtitle": "How Warner Bros. Bent a Government to Its Will and Crushed an Attempt to Unionize The Hobbit",
+        "authors": [
+          "Jonathan Handel "
+        ],
+        "publisher": "Hollywood Analytics",
+        "publishedDate": "2012-11-22",
+        "description": "All was not well in Middle-earth . . . After the third Lord of the Rings movie premiered in 2003, fans of the series eagerly anticipated production and release of its prequel, The Hobbit. It turned out they had a while to wait, as a series of troubles delayed production for years. Then, in September 2010, when almost everything seemed resolved, U.S. and international actors unions issued a pub-lic alert advising their members \"not to accept work on this non-union production.\" Warner Bros. threatened to rip the troubled production from the country and events quickly spiraled out of control. New Zealand plunged into crisis. Saving the Hobbit was do or die for the local film industry, and the government scrambled to avoid disaster. Protests and rallies erupted and the island nation's currency fell on the possibility of losing the half-billion dollar project. Director Peter Jackson vowed to \"fight like hell\" to keep the shoot in New Zealand. But then studio executives flew in from Los Angeles like colonial masters ready to bring down the hammer. What happened next was almost unbelievable - and proved, if nothing else, that not all Hollywood drama is on the screen.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780615731001"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0615731007"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 92,
+        "printType": "BOOK",
+        "categories": [
+          "Performing Arts"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=RdiRAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=RdiRAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=RdiRAQAAQBAJ&pg=PA90&dq=Hobbit&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=RdiRAQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RdiRAQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 19.56,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 19.56,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=RdiRAQAAQBAJ&rdid=book-RdiRAQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 19560000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 19560000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/The_New_Zealand_Hobbit_Crisis-sample-pdf.acsm?id=RdiRAQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=RdiRAQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Bent a Government to Its Will and Crushed an Attempt to Unionize The \u003cb\u003eHobbit\u003c/b\u003e \u003cbr\u003e\nJonathan Handel. post-production work or services, 74 practicalities of the world \u003cbr\u003e\nin which we&#39;re living, 48 pre-production work or services, 74 Prime Minister, xii, \u003cbr\u003e\n44,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "H8ON-dTgQQYC",
+      "etag": "g0emnSIt2mc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/H8ON-dTgQQYC",
+      "volumeInfo": {
+        "title": "The Hobbit",
+        "subtitle": "An Unexpected Journey : Visual Companion",
+        "authors": [
+          "Jude Fisher"
+        ],
+        "publisher": "Houghton Mifflin Harcourt",
+        "publishedDate": "2012",
+        "description": "A visual companion to the film \"The Hobbit: An Unexpected Journey\" offers insights into the world of Middle-Earth and includes character profiles, bestiaries, and notes on the places of Middle-Earth.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780547898568"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0547898568"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 75,
+        "printType": "BOOK",
+        "categories": [
+          "Art"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 8,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=H8ON-dTgQQYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=H8ON-dTgQQYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=H8ON-dTgQQYC&pg=PT9&dq=Hobbit&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=H8ON-dTgQQYC&dq=Hobbit&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit.html?hl=&id=H8ON-dTgQQYC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=H8ON-dTgQQYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "F IGURE \u003cb\u003eHobbits\u003c/b\u003e . \u003cb\u003eHobbits\u003c/b\u003e . 1 \u003cb\u003ehobbit\u003c/b\u003e splash page 1. \u003cb\u003ehobbit\u003c/b\u003e splash page earth lies \u003cbr\u003e\na region of rolling green hills, bright meadows,. caption for unnecessary \u003cbr\u003e\nbookmark. FIGURE \u003cb\u003eHobbits\u003c/b\u003e. \u003cb\u003eHobbits\u003c/b\u003e.1 \u003cb\u003ehobbit\u003c/b\u003e splash page 1. \u003cb\u003ehobbit\u003c/b\u003e splash page \u003cbr\u003e\nIn a&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LcXDzr-tj58C",
+      "etag": "Nqg7NeyMYIw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LcXDzr-tj58C",
+      "volumeInfo": {
+        "title": "Exploring J.R.R. Tolkien's \"The Hobbit\"",
+        "authors": [
+          "Corey Olsen"
+        ],
+        "publisher": "Houghton Mifflin Harcourt",
+        "publishedDate": "2012-09-18",
+        "description": "\"An admirable and thought-provoking consideration of the underlying themes of The Hobbit, following the there-and-back-again progress from its famous first line on through to Bilbo's return home at the story's end.\" -- Douglas A. Anderson, author of The Annotated Hobbit The Hobbit is one of the most widely read and best-loved books of the twentieth century. Now Corey Olsen takes readers deep within the text to uncover its secrets and delights. Exploring J.R.R. Tolkien’s “The Hobbit” is a fun, thoughtful, and insightful companion volume designed to bring a thorough and original new reading of this great work to a general audience. Professor Corey Olsen takes readers on an in-depth journey through The Hobbit chapter by chapter, revealing the stories within the story: the dark desires of dwarves and the sublime laughter of elves, the nature of evil and its hopelessness, the mystery of divine providence and human choice, and, most of all, the transformation within the life of Bilbo Baggins. Exploring J.R.R. Tolkien’s “The Hobbit” is a book that will make The Hobbit come alive for readers as never before.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780547739670"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0547739672"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 7,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "3.9.8.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=LcXDzr-tj58C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=LcXDzr-tj58C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=LcXDzr-tj58C&pg=PP2&dq=Hobbit&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=LcXDzr-tj58C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=LcXDzr-tj58C"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 57.74,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 39.26,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=LcXDzr-tj58C&rdid=book-LcXDzr-tj58C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 57740000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 39260000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Exploring_J_R_R_Tolkien_s_The_Hobbit-sample-epub.acsm?id=LcXDzr-tj58C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Exploring_J_R_R_Tolkien_s_The_Hobbit-sample-pdf.acsm?id=LcXDzr-tj58C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=LcXDzr-tj58C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "$25.00 HIGHER IN CANADA “An admirable and thought-provoking consideration \u003cbr\u003e\nof the underlying themes of The \u003cb\u003eHobbit\u003c/b\u003e, following the there-andback-again \u003cbr\u003e\nprogress from its famous first line on through to Bilbo&#39;s return home at the story&#39;s \u003cbr\u003e\nend."
+      }
+    }
+  ]
+}

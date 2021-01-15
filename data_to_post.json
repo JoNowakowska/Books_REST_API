@@ -1,0 +1,824 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 594,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "XyYREAAAQBAJ",
+      "etag": "HGzHY/PA36k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XyYREAAAQBAJ",
+      "volumeInfo": {
+        "title": "God Of War",
+        "authors": [
+          "Grzegorz Misztal"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2020-12-27",
+        "description": "W tym poradniku znajdziesz całość potrzebnych informacji, by ukończyć grę God of War na 100%. To bardzo duża gra, pełna sekretów, opcjonalnych wyzwań i znajdziek – z naszym poradnikiem, uda ci się wszystko skompletować. Stworzyliśmy bogato ilustrowaną solucję, która poprowadzi cię przez wszystkie zadania wątku głównego. Dodatkowo, przeczytasz jak dotrzeć do ukrytych światów, jak pokonać 9 ukrytych bossów w grze i nauczysz się podstaw gry. Dział Porad opisuje sterowanie, przedstawia mechanikę rozwoju Kratosa i Atreusa, omawia Sklep Krasnoludów – przeczytasz tutaj również porady ogólne, które pomogą ci w początkach przygody z grą God of War. Dział FAQ poświęcony jest odpowiedziom na wiele pytań związanych z grą God of War. Dowiesz się tutaj m.in. jak zdobyć najlepsze wyposażenie w grze, kiedy zyskasz dostęp do nowej broni, jak dotrzeć do części sekretów w grze, jak ukończyć grę God of War na 100%, jak zdobywać dużą ilość srebra i doświadczenia – i wiele, wiele innych rozdziałów. Poradnik obejmuję bardzo rozbudowaną i bogato ilustrowaną solucję głównego wątku fabularnego w grze God of War. Czeka na ciebie 17 bardzo rozbudowanych misji, w których odwiedzisz różne światy: Midgard, Aflheim, Helheim, Jotunheim. Wiele czasu poświęciliśmy na sekrety i znajdźki. Znajdziesz tutaj bogato ilustrowany poradnik, który poprowadzi cię przez wszystkie krainy w grze i wskaże w nich rozmieszczenie znajdziek takich jak: Kruki Odyna, Artefakty, Znaczniki Informacji, Legendarne skrzynie, czy Skrzynie Norn. Używając naszego poradnika, będziesz w stanie osiągnąć 100% ukończenia wszystkich lokacji w grze. Prace, to specjalne wyzwania w grze God of War. To dodatkowa zadania, które wymagają od ciebie np. pokonanie określonej ilości wrogów. W tym dziale, zapoznasz się z wszystkimi pracami w grze – najważniejsze z nich otrzymały odrębne rozdziały. Dzięki temu, szybko dotrzesz do ukrytych komnat, odkryjesz wszystkie Ołtarze Jotunów i ocalisz trzy ukryte smoki.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785042737619"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5042737618"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=XyYREAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=XyYREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=XyYREAAAQBAJ&pg=PA3&dq=war&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=XyYREAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=XyYREAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=XyYREAAAQBAJ&rdid=book-XyYREAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/God_Of_War-sample-pdf.acsm?id=XyYREAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=XyYREAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sekrety i znajdźki w God Of \u003cb\u003eWar\u003c/b\u003e Dziki las - Sekrety i znajdźki God of \u003cb\u003eWar\u003c/b\u003e \u003cbr\u003e\nRzeczna Przełęcz - Sekrety i znajdźki God of \u003cb\u003eWar\u003c/b\u003e Przedgórze, sekrety i znajdźki \u003cbr\u003e\nw God of \u003cb\u003eWar\u003c/b\u003e Alfheim - Sekrety i znajdźki God of \u003cb\u003eWar\u003c/b\u003e Góra - Sekrety i znajdźki \u003cbr\u003e\nGod of&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FFnSBgAAQBAJ",
+      "etag": "Ye4pyGfceq8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FFnSBgAAQBAJ",
+      "volumeInfo": {
+        "title": "War and Peace Philosophical, Political and Legal Aspects",
+        "subtitle": "Volume II LEGAL CONDITIONINGS",
+        "authors": [
+          "Anetta Breczko",
+          "Florian Lempa"
+        ],
+        "publisher": "Wydawnictwo Temida 2",
+        "publishedDate": "2013",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788362813599"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8362813598"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 147,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FFnSBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FFnSBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=FFnSBgAAQBAJ&pg=PA31&dq=war&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=FFnSBgAAQBAJ&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/War_and_Peace_Philosophical_Political_an.html?hl=&id=FFnSBgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=FFnSBgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "of \u003cb\u003ewar\u003c/b\u003e or hostilities is similarly treated by S. Grzybowski who clearly states that \u003cbr\u003e\nneither those provisions, nor the nature of the implementing legislation is \u003cbr\u003e\nepisodic, but they form the complete merit whole with the provisions of art. 29–52 \u003cbr\u003e\nCivil&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "iyoREAAAQBAJ",
+      "etag": "H1vK0DDB4Pg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/iyoREAAAQBAJ",
+      "volumeInfo": {
+        "title": "Medieval: Total War",
+        "authors": [
+          "Artur Okoń"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2020-12-27",
+        "description": "Medieval: Total War doskonale łączy w sobie zalety klasycznych gier turowych z dynamizmem współczesnych RTS-ów. Napisanie wyczerpującego poradnika do gry jest praktycznie niemożliwe, dlatego do rąk waszych trafia abecadło strategii Medieval: Total War! Medieval: Total War – poradnik do gry zawiera poszukiwane przez graczy tematy i lokacje jak m.in. Abecadło Medieval: Total War – część 2 Abecadło Medieval: Total War – część 3 Informacja o grze Kontynuacja słynnej i wielokrotnie nagradzanej serii gier strategicznych Total War. Tym razem autorzy przenoszą nas w realia średniowiecznej Europy. Rozgrywka podzielona została na dwie płaszczyzny. Zarządzanie imperium odbywa się na turowej mapie strategicznej, a olbrzymie bitwy z udziałem tysięcy jednostek toczone są w czasie rzeczywistym. Gra Medieval: Total War, dobrze przyjęta zarówno przez krytyków, jak i graczy, to przedstawiciel gatunku gier strategicznych. Tytuł wydany został w Polsce w 2002 roku i dostępny jest na platformie PC. Wersja językowa oficjalnie dystrybuowana na terenie kraju to: angielska.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785042743849"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5042743847"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=iyoREAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=iyoREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=iyoREAAAQBAJ&pg=PA3&dq=war&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=iyoREAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=iyoREAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=iyoREAAAQBAJ&rdid=book-iyoREAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Medieval_Total_War-sample-pdf.acsm?id=iyoREAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=iyoREAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Wprowadzenie Medieval: Total \u003cb\u003eWar\u003c/b\u003e jest z pewnością grą nietypową. Doskonale \u003cbr\u003e\nłączy w sobie zalety klasycznych gier turowych (zarządzanie państwem) z \u003cbr\u003e\ndynamizmem współczesnych RTS-ów (rozgrywanie bitew). Czyni to z niej \u003cbr\u003e\npozycje&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cyUREAAAQBAJ",
+      "etag": "E5MIrjAHkCE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cyUREAAAQBAJ",
+      "volumeInfo": {
+        "title": "Total War Three Kingdoms",
+        "authors": [
+          "Jakub Bugielski"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2020-12-27",
+        "description": "Poradnik do gry Total War: Three Kingdoms to rozbudowane kompendium wiedzy, zawierające wyjaśnienie wszystkich jej elementów i składowych rozgrywki. Tekst otwierają porady na start i opis podstawowych mechanizmów rozgrywki, gdzie umieszczone zostały najważniejsze informacje pomocne w rozpoczęciu przygody z najnowsza odsłoną serii Total War. Znajdują się tutaj, między innymi, rozdziały opisujące mechanizm porządku publicznego i korupcji, dyplomacji i handlu, różnice pomiędzy trybami Opowieści i Archiwami czy sposoby na utrzymanie wydajnej i sprawnie funkcjonującej gospodarki. Co więcej, w poradniku zawarto szczegółowy opis wszystkich dostępnych w grze frakcji, wraz z ich cechami szczególnymi i różnicami względem innych, a także dostępnych dla nich przywódców. W poradniku nie zabrakło także porad dotyczących sprawnego poruszania się po mapie, prowadzenia bitew i oblężeń, dbania o stan wojska czy unikalnych, wprowadzonych do serii za sprawą Three Kingdoms mechanik, takich jak system Guanxi. W tekście znalazł się także rozbudowany dział FAQ, zawierający odpowiedzi na najtrudniejsze pytania i rozwiązania problemów, które pojawić mogą się podczas przygody z produkcją – sposoby uzupełniania strat w armii, metody radzenia sobie z porządkiem publicznym i korupcją, sposoby odblokowywania nowych zdolności dla generałów czy radzenia sobie z konkretnymi typami przeciwników. Nie zabrakło tutaj także porad dotyczących samej rozgrywki – walki z konkretnymi frakcjami, sposobów na szybkie pozyskiwanie doświadczenia czy rozbudowę zajętych terenów czy sprawną rekrutację wojsk. Standardowo, poradnik zamyka sekcja Aneks, w której znalazły się rozdziały opisujące wymagania sprzętowe, sterowanie i dogłębnie wyjaśnione osiągnięcia, wraz ze sposobem na ich odblokowanie. Total War: Three Kingdoms to najnowsza, dwunasta już główna odsłona popularnego cyklu strategii, która zabiera graczy do starożytnych Chin, do czasów, gdy Państwo Środka podzielone było na trzy rywalizujące ze sobą królestwa. Najnowsza odsłona cyklu stawia większy nacisk na aspekty fabularne, nadając działaniom gracza i frakcjom kierowanym przez sztuczną inteligencję głębi. Pod względem mechaniki Three Kigndoms rozwija aspekty znane z poprzednich odsłon, dzieląc cała rozgrywkę na dwa etapy, rozgrywające się na mapie świata, w systemie turowym i w bitwy toczone w czasie rzeczywistym. Najnowsza odsłona serii Total War wprowadza kilka nowych mechanik, między innymi system Guanxi czy możliwość dostosowania stopnia realistyczności rozgrywki – Archiwa przypominające starsze odsłony cyklu, gdzie generałowie stanowili wsparcie dla wojsk i i Opowieści, gdzie ci sami generałowie to potężne jednostki, dysponujące nadludzkimi zdolnościami, zdolne eliminować całe oddziały, co zostało już przedstawione w obu częściach Total War: Warhammer. Gracze bawić mogą się w trybie kampanii, pojedynczych potyczek, jak w trybie wieloosobowym. Najnowsza odsłona serii napędzana jest silnikiem zdolnym generować piękną, bardzo atrakcyjną i pełną detali szatę graficzną, a zabawę umila klimatyczna muzyka, doskonale oddająca atmosferę starożytnych Chin. Total War Three Kingdoms – poradnik do gry zawiera poszukiwane przez graczy tematy i lokacje jak m.in. Wszyscy watażkowie (przywódcy) (Podstawy) Porady na start (Podstawy) Korupcja (Mechanizmy rozgrywki) Wielkość jednostek (Podstawy) Przygotowania do wojny (Podstawy) Rozwój komanderii (Mechanizmy rozgrywki) Dwór (Mechanizmy rozgrywki) Dlaczego wojska mają małą liczebność? (FAQ) Dyplomacja i handel (Mechanizmy rozgrywki) Tryby 'Opowieści i 'Archiwa' (Podstawy)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785042736919"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5042736913"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cyUREAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cyUREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=cyUREAAAQBAJ&pg=PA3&dq=war&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=cyUREAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cyUREAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=cyUREAAAQBAJ&rdid=book-cyUREAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Total_War_Three_Kingdoms-sample-pdf.acsm?id=cyUREAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=cyUREAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Poradnik do gry Total \u003cb\u003eWar\u003c/b\u003e: Three Kingdoms to rozbudowane kompendium \u003cbr\u003e\nwiedzy, zawierające wyjaśnienie wszystkich jej elementów i składowych \u003cbr\u003e\nrozgrywki. Tekst otwierają porady na start i opis podstawowych mechanizmów \u003cbr\u003e\nrozgrywki,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "xyUREAAAQBAJ",
+      "etag": "swE6sDdSyBw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/xyUREAAAQBAJ",
+      "volumeInfo": {
+        "title": "Total War: Warhammer",
+        "authors": [
+          "Jakub Bugielski"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2020-12-27",
+        "description": "Poradnik do gry Total War: Warhammer zawiera wszystkie informacje potrzebne do pełnego zrozumienia tego rozbudowanego i wymagającego tytułu. Znajdziesz tutaj praktyczne porady dotyczące wszystkich występujących w grze mechanizmów – ładu publicznego, spaczenia, czy utrzymywania wydajnej gospodarki. Dodatkowo, w poradniku zawarto szczegółowy opis wszystkich dostępnych w grze frakcji: Imperium, Krasnoludów, Zielonoskórych, Wampirów i Chaosu, wraz z dostępnymi dla nich jednostkami, budynkami, drzewkami technologicznymi, czy różnicami pomiędzy frakcjami. Nie zabrakło tutaj oczywiście porad dotyczących sprawnego poruszania się po mapie świata, prowadzenia bitew i oblężeń, zarządzania prowincjami, czy dyplomacji z innymi frakcjami. Opisany został także nowy mechanizm dla gier z serii Total War, czyli czary, wpływ Wiatrów Magii, jak i ogólne porady dotyczące wykorzystywania zaklęć. Co więcej, w poradniku znajdziesz opis wszystkich misji fabularnych dostępnych dla każdej z frakcji, wraz ze wskazówkami pomocnymi do ich ukończenia. Poradnik zamyka spis dostępnych w grze osiągnięć, wraz z informacjami pomocnymi w ich odblokowywaniu. Poradnik stworzony został w oparciu o poziom trudności «b. wysoki», jednak wszelkie różnice w poziomach zostaną zaznaczone w tekście. Total War: Warhammer to dziesiąta już odsłona popularnej serii gier studia Creative Assembly, która łączy elementy zarządzania państwem w systemie turowym z efektownymi bitwami prowadzonymi w czasie rzeczywistym. Jednakże, przeciwieństwie do poprzednich gier studia, akcja tytułu rozgrywa się w mrocznym świecie fantasy, który znany jest z gier bitewnych i fabularnych przygotowanych przez firmę Games Workshop. Poradnik do gry Total War: Warhammer zawiera: Opis wszystkich dostępnych w grze frakcji: Imperium, Krasnoludów, Zielonoskórych, Wampirów i Chaosu; Dokładne omówienie wszystkich kluczowych elementów rozgrywki – poruszania się po mapie, rozwoju państwa, prowadzenia dyplomacji i przeprowadzania walk i oblężeń; Porady ogólne związane z samą rozgrywką, a także z nowym mechanizmem w serii Total War – magią; Porady dotyczące zarządzania państwem i planowaniu działań długoterminowych; Szczegółowy opis wszystkich dostępnych w grze misji fabularnych, dla każdej z frakcji; Porady pomocne przy rozgrywce wieloosobowej; Spis i opis wszystkich dostępnych w grze osiągnięć, wraz z informacjami pomocnymi w ich zdobyciu. Poradnik do gry Total War: Warhammer zawiera przede wszystkim praktyczne porady dotyczące zarządzania królestwem i prowadzenia bitew. Znajdziesz w nim również szczegółowe opisy wszystkich frakcji i wchodzących w ich skład jednostek. Total War: Warhammer – poradnik do gry zawiera poszukiwane przez graczy tematy i lokacje jak m.in. Charakterystyka (Imperium) Charakterystyka (Wojownicy Chaosu) Charakterystyka (Krasnoludy) Charakterystyka (Zielonoskórzy) Jednostki (Imperium) Mapa strategiczna (Podstawy) Porady ogólne (Podstawy) Rozwój prowincji (Imperium) Poznaj frakcje (Porady na dobry początek) Przygotowania do wojny (Porady na dobry początek)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785042737176"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5042737170"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=xyUREAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=xyUREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=xyUREAAAQBAJ&pg=PA4&dq=war&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=xyUREAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xyUREAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 9.58,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=xyUREAAAQBAJ&rdid=book-xyUREAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 9580000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Total_War_Warhammer-sample-pdf.acsm?id=xyUREAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=xyUREAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Wprowadzenie. Poradnik do gry Total \u003cb\u003eWar\u003c/b\u003e: Warhammer zawiera wszystkie \u003cbr\u003e\ninformacje potrzebne do pełnego zrozumienia tego rozbudowanego i \u003cbr\u003e\nwymagającego tytułu. Znajdziesz tutaj praktyczne porady dotyczące wszystkich \u003cbr\u003e\nwystępujących w&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ThfzGvSvQ2UC",
+      "etag": "dOmvTK/yZD0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ThfzGvSvQ2UC",
+      "volumeInfo": {
+        "title": "War Crimes Against Women",
+        "subtitle": "Prosecution in International War Crimes Tribunals",
+        "authors": [
+          "Kelly Dawn Askin"
+        ],
+        "publisher": "Martinus Nijhoff Publishers",
+        "publishedDate": "1997",
+        "description": "Of the ICTY.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9041104860"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789041104861"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 455,
+        "printType": "BOOK",
+        "categories": [
+          "Law"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ThfzGvSvQ2UC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ThfzGvSvQ2UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=ThfzGvSvQ2UC&pg=PA1&dq=war&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=ThfzGvSvQ2UC&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/War_Crimes_Against_Women.html?hl=&id=ThfzGvSvQ2UC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ThfzGvSvQ2UC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The literature of \u003cb\u003ewar\u003c/b\u003e is full of evidence of this disagreeable dark edge to military \u003cbr\u003e\nbehaviour . Introduction to Gender Specific \u003cb\u003eWar\u003c/b\u003e Crimes Almost since the \u003cbr\u003e\nexistence of humankind , there has been \u003cb\u003ewar\u003c/b\u003e , and where there is \u003cb\u003ewar\u003c/b\u003e , there is \u003cbr\u003e\nalways&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "TNhFH5g3sCsC",
+      "etag": "Y5qd7jPp08g",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TNhFH5g3sCsC",
+      "volumeInfo": {
+        "title": "Effects of War on Society",
+        "authors": [
+          "Center for Interdisciplinary Research on Social Stress"
+        ],
+        "publisher": "Boydell Press",
+        "publishedDate": "2002",
+        "description": "''Studies on the Nature of War'' aims to place in perspective the sociocultural variables that make outbreaks of war probable, and identify for policy-makers steps that can be taken to control these variables. This first volume of the series is designed to show the many effects that war produces on the societies that are addicted to them. Twelve papers describe the evolution from antiquity to modern times of the interpretation of the causes of war and of its effects; the causes of war among pre-industrial societies; war in an ancient empire, the Roman, in a modern one, the Austro-Hungarian, and in the Soviet empire; and the various aspects of the impact of war on society, for instance, the correlation between war and personal violence, the manipulation of public communication, and the costs of war. CONTRIBUTORS: G. AUSENDA, R. POZZO, C. DANDEKER, R. B. FERGUSON, R. L. CARNEIRO, J. A. TAINTER, T. J. CORNELL, N. RUDENSKY, A. AKLAEV, D. LESTER, P.M. TAYLOR, W. R. THOMPSON. CONTENTS: The evolution of learned thinking on the significance of war from classical Greece to the Renaissance: A survey. G. AUSENDA and R. POZZO; The causes of war and the history of modern sociological theory. C. DANDEKER; The general consequences of war: An Amazonian perspective. R. B. FERGUSON; The role of warfare in political evolution: Past results and future projections. R. L. CARNEIRO; Evolutionary consequences of war. J. A. TAINTER; The effects of war on the society of ancient Rome. T. J. CORNELL; War and nationalities problems: The end of the Austro-Hungarian Empire. G. AUSENDA; War as a factor of ethnic conflict and stability in the U.S.S.R. N. RUDENSKY; War and social stress and their effects on the nationalities in the U.S.S.R. A. AKLAEV; War and personal violence. D. LESTER; The effects of war on communications. P.M. TAYLOR; Assessing the costs of war: A preliminary cut. W. R. THOMPSON. learned thinking on the significance of war from classical Greece to the Renaissance: A survey. G. AUSENDA and R. POZZO; The causes of war and the history of modern sociological theory. C. DANDEKER; The general consequences of war: An Amazonian perspective. R. B. FERGUSON; The role of warfare in political evolution: Past results and future projections. R. L. CARNEIRO; Evolutionary consequences of war. J. A. TAINTER; The effects of war on the society of ancient Rome. T. J. CORNELL; War and nationalities problems: The end of the Austro-Hungarian Empire. G. AUSENDA; War as a factor of ethnic conflict and stability in the U.S.S.R. N. RUDENSKY; War and social stress and their effects on the nationalities in the U.S.S.R. A. AKLAEV; War and personal violence. D. LESTER; The effects of war on communications. P.M. TAYLOR; Assessing the costs of war: A preliminary cut. W. R. THOMPSON. learned thinking on the significance of war from classical Greece to the Renaissance: A survey. G. AUSENDA and R. POZZO; The causes of war and the history of modern sociological theory. C. DANDEKER; The general consequences of war: An Amazonian perspective. R. B. FERGUSON; The role of warfare in political evolution: Past results and future projections. R. L. CARNEIRO; Evolutionary consequences of war. J. A. TAINTER; The effects of war on the society of ancient Rome. T. J. CORNELL; War and nationalities problems: The end of the Austro-Hungarian Empire. G. AUSENDA; War as a factor of ethnic conflict and stability in the U.S.S.R. N. RUDENSKY; War and social stress and their effects on the nationalities in the U.S.S.R. A. AKLAEV; War and personal violence. D. LESTER; The effects of war on communications. P.M. TAYLOR; Assessing the costs of war: A preliminary cut. W. R. THOMPSON. learned thinking on the significance of war from classical Greece to the Renaissance: A survey. G. AUSENDA and R. POZZO; The causes of war and the history of modern sociological theory. C. DANDEKER; The general consequences of war: An Amazonian perspective. R. B. FERGUSON; The role of warfare in political evolution: Past results and future projections. R. L. CARNEIRO; Evolutionary consequences of war. J. A. TAINTER; The effects of war on the society of ancient Rome. T. J. CORNELL; War and nationalities problems: The end of the Austro-Hungarian Empire. G. AUSENDA; War as a factor of ethnic conflict and stability in the U.S.S.R. N. RUDENSKY; War and social stress and their effects on the nationalities in the U.S.S.R. A. AKLAEV; War and personal violence. D. LESTER; The effects of war on communications. P.M. TAYLOR; Assessing the costs of war: A preliminary cut. W. R. THOMPSON. of war and the history of modern sociological theory. C. DANDEKER; The general consequences of war: An Amazonian perspective. R. B. FERGUSON; The role of warfare in political evolution: Past results and future projections. R. L. CARNEIRO; Evolutionary consequences of war. J. A. TAINTER; The effects of war on the society of ancient Rome. T. J. CORNELL; War and nationalities problems: The end of the Austro-Hungarian Empire. G. AUSENDA; War as a factor of ethnic conflict and stability in the U.S.S.R. N. RUDENSKY; War and social stress and their effects on the nationalities in the U.S.S.R. A. AKLAEV; War and personal violence. D. LESTER; The effects of war on communications. P.M. TAYLOR; Assessing the costs of war: A preliminary cut. W. R. THOMPSON.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0851158684"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780851158686"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 310,
+        "printType": "BOOK",
+        "categories": [
+          "Political Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=TNhFH5g3sCsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TNhFH5g3sCsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=TNhFH5g3sCsC&pg=PA131&dq=war&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=TNhFH5g3sCsC&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Effects_of_War_on_Society.html?hl=&id=TNhFH5g3sCsC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=TNhFH5g3sCsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "THE EFFECTS OF \u003cb\u003eWAR\u003c/b\u003e ON THE SOCIETY OF ANCIENT ROME T.J. CORNELL \u003cbr\u003e\nDepartment of History , The University of Manchester , Oxford Road , Manchester \u003cbr\u003e\nM13 9PL A discussion of the effects of \u003cb\u003ewar\u003c/b\u003e on society is both possible and&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "uxcNAQAAIAAJ",
+      "etag": "UO9OStLClNE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/uxcNAQAAIAAJ",
+      "volumeInfo": {
+        "title": "War and Social Change",
+        "subtitle": "British Society in the Second World War",
+        "authors": [
+          "Harold L. Smith"
+        ],
+        "publisher": "Manchester University Press",
+        "publishedDate": "1990",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "071902319X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780719023194"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 271,
+        "printType": "BOOK",
+        "categories": [
+          "Great Britain"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=uxcNAQAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=uxcNAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=uxcNAQAAIAAJ&pg=PA208&dq=war&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=uxcNAQAAIAAJ&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/War_and_Social_Change.html?hl=&id=uxcNAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=uxcNAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Harold L . Smith The effect of the \u003cb\u003ewar\u003c/b\u003e on the status of women The notion that the \u003cbr\u003e\nSecond World \u003cb\u003eWar\u003c/b\u003e must have had a profound and lasting effect on the lives of \u003cbr\u003e\nBritish women has continued to shape interpretive studies of the conflict to the&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "DHoQ5GJ2H6YC",
+      "etag": "afqa4pi6zOg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DHoQ5GJ2H6YC",
+      "volumeInfo": {
+        "title": "Origins of the Cold War",
+        "subtitle": "An International History",
+        "authors": [
+          "Melvyn P. Leffler",
+          "David S. Painter"
+        ],
+        "publisher": "Psychology Press",
+        "publishedDate": "2005",
+        "description": "The Cold War dominated the world political arena for forty-five years. Focusing on the international system and on events in all parts of the globe, Melvyn P. Leffler and David S. Painter have brought together a truly international collection of articles that provide a fresh and comprehensive analysis of the origins of the Cold War. Moving beyond earlier controversies, this edited collection focuses on the interaction between geopolitics and threat perception, technology and strategy, ideology and social reconstruction, national economic reform and patterns of international trade, and decolonization and national liberation. The editors also consider how and why the Cold War spread from Europe to Asia, Africa, the Middle East and Latin America and how groups, classes and elites used the Cold War to further their own interests. This second edition includes the newest research from the Communist side of the Cold War and the most recent debates on culture, race and the role of intelligence analysis. Also included is a completely new section dealing with the Cold War crises in Iran, Turkey and Greece and a guide to further reading.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0415341094"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780415341097"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": [
+          "History"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DHoQ5GJ2H6YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DHoQ5GJ2H6YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=DHoQ5GJ2H6YC&pg=PA1&dq=war&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=DHoQ5GJ2H6YC&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Origins_of_the_Cold_War.html?hl=&id=DHoQ5GJ2H6YC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DHoQ5GJ2H6YC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "David S. Painter and Melvyn P. Leffler For forty-five years the Cold \u003cb\u003eWar\u003c/b\u003e was at the \u003cbr\u003e\ncenter of world politics. It dominated the foreign policies of the two superpowers - \u003cbr\u003e\nthe United States and the Soviet Union - and deeply affected their societies&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "rHL_Zse8Y7EC",
+      "etag": "0FO2WYroI30",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/rHL_Zse8Y7EC",
+      "volumeInfo": {
+        "title": "Just War",
+        "subtitle": "Principles and Cases",
+        "authors": [
+          "Regan Richard J.",
+          "Richard J. Regan"
+        ],
+        "publisher": "CUA Press",
+        "publishedDate": "1996",
+        "description": "Most individuals realise that we have a moral obligation to avoid the evils of war. But this realization raises a host of difficult questions when we, as responsible individuals, witness harrowing injustices such as \"\"ethnic cleansing\"\" in Bosnia or starvation in Somalia. With millions of lives at stake, is war ever justified? And, if so, for what purpose? In this book, Richard J. Regan confronts these controversial questions by first considering the basic principles of just-war theory and then applying those principles to historical and ongoing conflicts. Part One presents two opposing viewpoints: first, that war is not subject to moral norms and, second, that war is never morally permissible. The author rejects both perspectives, and moves to define the principles of just-war theory. He evaluates the roles of the president, Congress and, most importantly, the UN Security Council in determining when long-term US military involvement is justified. The moral limits of war conduct and the moral problem of using, or threatening to use, nuclear weapons are also discussed. On the just cause to wage war, Regan argues that defense of nations and nationals - whether in self-defense or in defense of others - remains the \"\"only\"\" classical cause that in the modern world would justify resorting to war. With respect to military intervention in secessionist and revolutionary wars, he contends that such intervention might be justified, but that prudence dictates extreme caution. In considering acceptable war conduct, Regan elaborates the specific principle of discrimination and proportionality; he maintains that civilians uninvolved in the enemy's war should not be directly targeted and that the costs of military action must be proportionate to the anticipated benefits of destroying military targets. The second part of the book presents case studies of eight historical wars - World War I, the Vietnam War, the Falklands War, the revolution and civil war in Nicaragua, the civil war in El Salvador, the Gulf War, the intervention in Somalia, and the Bosnian War - and poses several provocative questions about each. It invites readers and students to apply just-war principles to complex war-related situations and to understand the factual contingencies involved in moral judgements about war decisions. The book should be of particular interest to students of the moral issues of international relations and to readers interested more generally in philosophy, theology and political science.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0813208564"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780813208565"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 247,
+        "printType": "BOOK",
+        "categories": [
+          "Political Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=rHL_Zse8Y7EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=rHL_Zse8Y7EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=rHL_Zse8Y7EC&pg=PA84&dq=war&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=rHL_Zse8Y7EC&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Just_War.html?hl=&id=rHL_Zse8Y7EC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Just_War-sample-epub.acsm?id=rHL_Zse8Y7EC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=rHL_Zse8Y7EC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "5 THE JUST \u003cb\u003eWAR\u003c/b\u003e DECISION Right Intention Just - \u003cb\u003ewar\u003c/b\u003e theory requires that those \u003cbr\u003e\nwho make decisions to wage \u003cb\u003ewar\u003c/b\u003e should be constitutionally and legally \u003cbr\u003e\nauthorized to do so , and that \u003cb\u003ewars\u003c/b\u003e should be waged only for proportionately just \u003cbr\u003e\ncauses&nbsp;..."
+      }
+    }
+  ]
+}
