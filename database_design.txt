@@ -1,0 +1,191 @@
+To see how the database looks like, paste the below code at the dbdiagrams.io website:
+
+Table book_volumes {
+  id SERIAL [pk, increment]
+  kind VARCHAR(100)
+  internal_id VARCHAR(100)
+  etag VARCHAR(100)
+  selfLink VARCHAR(250)
+  created_at DATETIME
+  last_update DATETIME
+}
+
+Table volume_info {
+  id SERIAL [pk, increment]
+  book_volume_id INTEGER [ref: > book_volumes.id]
+  title VARCHAR(300)
+  publisher VARCHAR(100)
+  publishedDate DATE
+  description VARCHAR(2000)
+  printType_id INTEGER [ref: > print_types.id]
+  maturityRating_id INTEGER [ref: > maturity_ratings.id]
+  allowAnonLogging BOOLEAN
+  contentVersion VARCHAR(50)
+  language_id INTEGER [ref: > language_codes.id]
+  previewLink VARCHAR(250)
+  infoLink VARCHAR(250)
+  canonicalVolumeLink VARCHAR(250)
+}
+
+Table authors {
+  id SERIAL [pk, increment]
+  name VARCHAR(150)
+  volume_info_id INTEGER [ref: > volume_info.id]
+}
+
+Table industry_identifiers {
+  id SERIAL [pk, increment]
+  volume_info_id INTEGER [ref: > volume_info.id]
+  type VARCHAR(50)
+  identifier INTEGER
+}
+
+Table reading_modes {
+  id SERIAL [pk, increment]
+  volume_info_id INTEGER [ref: > volume_info.id]
+  text BOOLEAN
+  image BOOLEAN
+}
+
+Table print_types {
+  id SERIAL [pk, increment]
+  name VARCHAR(50)
+}
+        
+Table categories {
+  id SERIAL [pk, increment]
+  cat_name VARCHAR(50)
+  volume_info_id INTEGER [ref: > volume_info.id]
+}
+
+Table maturity_ratings {
+  id SERIAL [pk, increment]
+  name VARCHAR(50)
+}
+
+Table panelization_summaries {
+  id SERIAL [pk, increment]
+  volume_info_id INTEGER [ref: > volume_info.id]
+  containsEpubBubbles BOOLEAN
+  containsImageBubbles BOOLEAN
+}
+
+Table imageLinks {
+  id SERIAL [pk, increment]
+  volume_info_id INTEGER [ref: > volume_info.id]
+  smallThumbnail VARCHAR(250)
+  thumbnail VARCHAR(250)
+}
+
+Table language_codes {
+  id SERIAL [pk, increment]
+  full_name VARCHAR(100)
+  language_code VARCHAR(10)
+}
+
+Table sale_info {
+  id SERIAL [pk, increment]
+  book_volume_id INTEGER [ref: > book_volumes.id]
+  country_id INTEGER [ref: > country_codes.id]
+  saleability_id INTEGER [ref: > saleability_options.id]
+  isEbook BOOLEAN
+  basic_list_price_id INTEGER [ref: > basic_list_prices.id]
+  basic_retail_price_id INTEGER [ref: > basic_retail_prices.id]
+  buyLink VARCHAR(250)
+  offer_id INTEGER [ref: > offers.id]
+}
+
+Table country_codes {
+  id SERIAL [pk, increment]
+  full_name VARCHAR(100)
+  country_code VARCHAR(10)
+}
+
+Table saleability_options {
+  id SERIAL [pk, increment]
+  option_name VARCHAR(50)
+}
+
+Table basic_list_prices {
+  id SERIAL [pk, increment]
+  amount NUMERIC 
+  currencyCode_id INTEGER [ref: > currency_codes.id]
+}
+
+Table basic_retail_prices {
+  id SERIAL [pk, increment]
+  amount NUMERIC 
+  currencyCode_id INTEGER [ref: > currency_codes.id]
+}
+
+Table currency_codes {
+  id SERIAL [pk, increment]
+  currencyCode VARCHAR(10)
+  currency_name VARCHAR(50)
+}
+
+Table offers {
+  id SERIAL [pk, increment]
+  finskyOfferType INTEGER
+  offer_list_prices_id INTEGER [ref: > offer_list_prices.id]
+  offer_retail_prices_id INTEGER [ref: > offer_retail_prices.id]
+}
+
+Table offer_list_prices {
+  id SERIAL [pk, increment]
+  amountInMicros INTEGER 
+  currencyCode_id INTEGER [ref: > currency_codes.id]
+}
+
+Table offer_retail_prices {
+  id SERIAL [pk, increment]
+  amountInMicros INTEGER 
+  currencyCode_id INTEGER [ref: > currency_codes.id]
+}
+
+Table access_info {
+  id SERIAL [pk, increment]
+  book_volume_id INTEGER [ref: > book_volumes.id]
+  country_id INTEGER [ref: > country_codes.id]
+  viewability_id INTEGER [ref: > viewabilities.id]
+  embeddable BOOLEAN
+  publicDomain BOOLEAN
+  textToSpeechPermission_id INTEGER [ref: > textToSpeechPermissions.id]
+  epub_id INTEGER [ref: > epub.id]
+  pdf_id INTEGER [ref: > pdf.id]
+  webReaderLink VARCHAR(250)
+  accessViewStatus_id INTEGER [ref: > accessViewStatuses.id]
+  quoteSharingAllowed BOOLEAN
+}
+
+Table viewabilities {
+  id SERIAL [pk, increment]
+  viewability_name VARCHAR(50)
+}
+
+Table textToSpeechPermissions {
+  id SERIAL [pk, increment]
+  permission_type VARCHAR
+}
+
+Table epub {
+  id SERIAL [pk, increment]
+  isAvailable BOOLEAN
+}
+
+Table pdf {
+  id SERIAL [pk, increment]
+  isAvailable BOOLEAN
+  acsTokenLink VARCHAR(250)
+}
+
+Table accessViewStatuses {
+  id SERIAL [pk, increment]
+  status VARCHAR(50)
+}
+
+Table searchInfo {
+  id SERIAL [pk, increment]
+  book_volume_id INTEGER [ref: > book_volumes.id]
+  textSnippet VARCHAR(500)
+}
