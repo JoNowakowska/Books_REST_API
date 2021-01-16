@@ -2,7 +2,7 @@
 ## To see how the database looks like, paste the below code to the interpreter at the dbdiagrams.io website.
 
 
-Table book_volumes {
+Table book_volume {
   id SERIAL [pk, increment]
   kind VARCHAR(100)
   internal_id VARCHAR(100)
@@ -14,72 +14,72 @@ Table book_volumes {
 
 Table volume_info {
   id SERIAL [pk, increment]
-  book_volume_id INTEGER [ref: > book_volumes.id]
+  book_volume_id INTEGER [ref: > book_volume.id]
   title VARCHAR(300)
   publisher VARCHAR(100)
   publishedDate DATE
   description VARCHAR(2000)
-  reading_mode_id INTEGER [ref: > reading_modes.id]
-  printType_id INTEGER [ref: > print_types.id]
-  maturityRating_id INTEGER [ref: > maturity_ratings.id]
+  reading_mode_id INTEGER [ref: > reading_mode.id]
+  printType_id INTEGER [ref: > print_type.id]
+  maturityRating_id INTEGER [ref: > maturity_rating.id]
   allowAnonLogging BOOLEAN
   contentVersion VARCHAR(50)
-  panelizationSummary_id INTEGER [ref: > panelization_summaries.id]
+  panelizationSummary_id INTEGER [ref: > panelization_summary.id]
   imageLinks_id INTEGER [ref: > image_links.id]
-  language_id INTEGER [ref: > language_codes.id]
+  language_id INTEGER [ref: > language_code.id]
   previewLink VARCHAR(250)
   infoLink VARCHAR(250)
   canonicalVolumeLink VARCHAR(250)
 }
 
-Table authors {
+Table author {
   id SERIAL [pk, increment]
   name VARCHAR(150)
   volume_info_id INTEGER [ref: > volume_info.id]
 }
 
-Table industry_identifiers {
+Table industry_identifier {
   id SERIAL [pk, increment]
   volume_info_id INTEGER [ref: > volume_info.id]
   type VARCHAR(50)
   identifier INTEGER
 }
 
-Table reading_modes {
+Table reading_mode {
   id SERIAL [pk, increment]
   text BOOLEAN
   image BOOLEAN
 }
 
-Table print_types {
+Table print_type {
   id SERIAL [pk, increment]
   name VARCHAR(50)
 }
         
-Table categories {
+Table category {
   id SERIAL [pk, increment]
   cat_name VARCHAR(50)
   volume_info_id INTEGER [ref: > volume_info.id]
 }
 
-Table maturity_ratings {
+Table maturity_rating {
   id SERIAL [pk, increment]
   name VARCHAR(50)
 }
 
-Table panelization_summaries {
+Table panelization_summary {
   id SERIAL [pk, increment]
   containsEpubBubbles BOOLEAN
   containsImageBubbles BOOLEAN
 }
 
-Table imageLinks {
+Table image_links {
   id SERIAL [pk, increment]
   smallThumbnail VARCHAR(250)
   thumbnail VARCHAR(250)
 }
 
-Table language_codes {
+Table language_code {
   id SERIAL [pk, increment]
   full_name VARCHAR(100)
   language_code VARCHAR(10)
@@ -87,7 +87,7 @@ Table language_codes {
 
 Table sale_info {
   id SERIAL [pk, increment]
-  book_volume_id INTEGER [ref: > book_volumes.id]
+  book_volume_id INTEGER [ref: > book_volume.id]
   country_id INTEGER [ref: > country_codes.id]
   saleability_id INTEGER [ref: > saleability_options.id]
   isEbook BOOLEAN
@@ -147,7 +147,7 @@ Table offer_retail_prices {
 
 Table access_info {
   id SERIAL [pk, increment]
-  book_volume_id INTEGER [ref: > book_volumes.id]
+  book_volume_id INTEGER [ref: > book_volume.id]
   country_id INTEGER [ref: > country_codes.id]
   viewability_id INTEGER [ref: > viewabilities.id]
   embeddable BOOLEAN
@@ -188,6 +188,6 @@ Table accessViewStatuses {
 
 Table searchInfo {
   id SERIAL [pk, increment]
-  book_volume_id INTEGER [ref: > book_volumes.id]
+  book_volume_id INTEGER [ref: > book_volume.id]
   textSnippet VARCHAR(500)
 }
