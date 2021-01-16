@@ -88,84 +88,84 @@ Table language_code {
 Table sale_info {
   id SERIAL [pk, increment]
   book_volume_id INTEGER [ref: > book_volume.id]
-  country_id INTEGER [ref: > country_codes.id]
-  saleability_id INTEGER [ref: > saleability_options.id]
+  country_id INTEGER [ref: > country_code.id]
+  saleability_id INTEGER [ref: > saleability.id]
   isEbook BOOLEAN
-  basic_list_price_id INTEGER [ref: > basic_list_prices.id]
-  basic_retail_price_id INTEGER [ref: > basic_retail_prices.id]
+  basic_list_price_id INTEGER [ref: > basic_list_price.id]
+  basic_retail_price_id INTEGER [ref: > basic_retail_price.id]
   buyLink VARCHAR(250)
-  offer_id INTEGER [ref: > offers.id]
 }
 
-Table country_codes {
+Table country_code {
   id SERIAL [pk, increment]
   full_name VARCHAR(100)
   country_code VARCHAR(10)
 }
 
-Table saleability_options {
+Table saleability {
   id SERIAL [pk, increment]
   option_name VARCHAR(50)
 }
 
-Table basic_list_prices {
+Table basic_list_price {
   id SERIAL [pk, increment]
   amount NUMERIC 
-  currencyCode_id INTEGER [ref: > currency_codes.id]
+  currencyCode_id INTEGER [ref: > currency_code.id]
 }
 
-Table basic_retail_prices {
+Table basic_retail_price {
   id SERIAL [pk, increment]
   amount NUMERIC 
-  currencyCode_id INTEGER [ref: > currency_codes.id]
+  currencyCode_id INTEGER [ref: > currency_code.id]
 }
 
-Table currency_codes {
+Table currency_code {
   id SERIAL [pk, increment]
   currencyCode VARCHAR(10)
   currency_name VARCHAR(50)
 }
 
-Table offers {
+Table offer {
   id SERIAL [pk, increment]
+  sale_info_id INTEGER [ref: > sale_info.id]
   finskyOfferType INTEGER
-  offer_list_prices_id INTEGER [ref: > offer_list_prices.id]
-  offer_retail_prices_id INTEGER [ref: > offer_retail_prices.id]
+  offer_list_price_id INTEGER [ref: > offer_list_price.id]
+  offer_retail_price_id INTEGER [ref: > offer_retail_price.id]
 }
 
-Table offer_list_prices {
+Table offer_list_price {
   id SERIAL [pk, increment]
   amountInMicros INTEGER 
-  currencyCode_id INTEGER [ref: > currency_codes.id]
+  currencyCode_id INTEGER [ref: > currency_code.id]
 }
 
-Table offer_retail_prices {
+Table offer_retail_price {
   id SERIAL [pk, increment]
   amountInMicros INTEGER 
-  currencyCode_id INTEGER [ref: > currency_codes.id]
+  currencyCode_id INTEGER [ref: > currency_code.id]
 }
 
 Table access_info {
   id SERIAL [pk, increment]
   book_volume_id INTEGER [ref: > book_volume.id]
-  country_id INTEGER [ref: > country_codes.id]
-  viewability_id INTEGER [ref: > viewabilities.id]
+  country_id INTEGER [ref: > country_code.id]
+  viewability_id INTEGER [ref: > viewability.id]
   embeddable BOOLEAN
   publicDomain BOOLEAN
-  textToSpeechPermission_id INTEGER [ref: > textToSpeechPermissions.id]
+  textToSpeechPermission_id INTEGER [ref: > textToSpeechPermission.id]
   epub_id INTEGER [ref: > epub.id]
   pdf_id INTEGER [ref: > pdf.id]
   webReaderLink VARCHAR(250)
-  accessViewStatus_id INTEGER [ref: > accessViewStatuses.id]
+  accessViewStatus_id INTEGER [ref: > accessViewStatus.id]
   quoteSharingAllowed BOOLEAN
 }
 
-Table viewabilities {
+Table viewability {
   id SERIAL [pk, increment]
   viewability_name VARCHAR(50)
 }
 
-Table textToSpeechPermissions {
+Table textToSpeechPermission {
   id SERIAL [pk, increment]
   permission_type VARCHAR
 }
@@ -181,7 +181,7 @@ Table pdf {
   acsTokenLink VARCHAR(250)
 }
 
-Table accessViewStatuses {
+Table accessViewStatus {
   id SERIAL [pk, increment]
   status VARCHAR(50)
 }

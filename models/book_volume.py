@@ -14,3 +14,6 @@ class BookVolume(db.Model):
     last_update = db.Column(db.DateTime(), default=datetime.utcnow())
 
     volume_info = db.relationship('VolumeInfo')
+    sale_info = db.relationship('SaleInfo')
+    access_info = db.relationship('AccessInfo')
+    search_info = db.relationship('SearchInfo')

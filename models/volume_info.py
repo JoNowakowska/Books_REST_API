@@ -19,7 +19,7 @@ volume_info_author = db.Table(
 
 
 volume_info_category = db.Table(
-    'volume_info_author',
+    'volume_info_category',
     db.Column(
         'volume_info_id',
         db.Integer(),
