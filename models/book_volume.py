@@ -10,7 +10,7 @@ class BookVolume(db.Model):
     internal_id = db.Column(db.String(100))
     etag = db.Column(db.String(100))
     selfLink = db.Column(db.String(250))
-    created_at = db.Column(db.DateTime(), default=datetime.utcnow())
+    created_at = db.Column(db.DateTime())
     last_update = db.Column(db.DateTime(), default=datetime.utcnow())
 
     volume_info = db.relationship('VolumeInfo')

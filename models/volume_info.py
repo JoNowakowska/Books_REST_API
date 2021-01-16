@@ -47,7 +47,10 @@ class VolumeInfo(db.Model):
     publisher = db.Column(db.String(100))
     publishedDate = db.Column(db.Date())
     description = db.Column(db.String(2000))
-    reading_mode_id = db.Column(db.Integer())
+    reading_mode_id = db.Column(
+        db.Integer(),
+        db.ForeignKey('reading_mode.id')
+    )
     printType_id = db.Column(
         db.Integer(),
         db.ForeignKey('print_type.id')
@@ -79,6 +82,15 @@ class VolumeInfo(db.Model):
     categories = db.relationship('Category', secondary=volume_info_category)
 
 
+class ReadingMode(db.Model):
+    __tablename__ = 'reading_mode'
+    id = db.Column(db.Integer(), primary_key=True)
+    text = (db.Boolean())
+    image = (db.Boolean())
+
+    volumes_info = db.relationship('VolumeInfo')
+
+
 class PrintType(db.Model):
     __tablename__ = 'print_type'
     id = db.Column(db.Integer(), primary_key=True)
@@ -93,6 +105,24 @@ class MaturityRating(db.Model):
     name = db.Column(db.String(50))
 
     volumes_info = db.relationship('VolumeInfo')
+
+
+class PanelizationSummary(db.Model):
+    __tablename__ = 'panelization_summary'
+    id = db.Column(db.Integer(), primary_key=True)
+    containsEpubBubbles = db.Column(db.Boolean())
+    containsImageBubbles = db.Column(db.Boolean())
+
+    volumes_info = db.relationship('VolumeInfo')
+
+
+class ImageLinks(db.Model):
+    __tablename__ = 'image_links'
+    id = db.Column(db.Integer(), primary_key=True)
+    smallThumbnail = db.Column(db.String(250))
+    thumbnail = db.Column(db.String(250))
+
+    volume_info = db.relationship('VolumeInfo')
 
 
 class LanguageCode(db.Model):
@@ -122,34 +152,7 @@ class IndustryIdentifier(db.Model):
     identifier = db.Column(db.Integer())
 
 
-class ReadingMode(db.Model):
-    __tablename__ = 'reading_mode'
-    id = db.Column(db.Integer(), primary_key=True)
-    text = (db.Boolean())
-    image = (db.Boolean())
-
-    volumes_info = db.relationship('VolumeInfo')
-
-
 class Category(db.Model):
     __tablename__ = 'category'
     id = db.Column(db.Integer(), primary_key=True)
     cat_name = db.Column(db.String(50))
-
-
-class PanelizationSummary(db.Model):
-    __tablename__ = 'panelization_summary'
-    id = db.Column(db.Integer(), primary_key=True)
-    containsEpubBubbles = db.Column(db.Boolean())
-    containsImageBubbles = db.Column(db.Boolean())
-
-    volumes_info = db.relationship('VolumeInfo')
-
-
-class ImageLinks(db.Model):
-    __tablename__ = 'image_links'
-    id = db.Column(db.Integer(), primary_key=True)
-    smallThumbnail = db.Column(db.String(250))
-    thumbnail = db.Column(db.String(250))
-
-    volume_info = db.relationship('VolumeInfo')
