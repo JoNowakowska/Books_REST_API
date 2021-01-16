@@ -1,4 +1,6 @@
-To see how the database looks like, paste the below code at the dbdiagrams.io website:
+## INFO:
+## To see how the database looks like, paste the below code to the interpreter at the dbdiagrams.io website.
+
 
 Table book_volumes {
   id SERIAL [pk, increment]
@@ -17,10 +19,13 @@ Table volume_info {
   publisher VARCHAR(100)
   publishedDate DATE
   description VARCHAR(2000)
+  reading_mode_id INTEGER [ref: > reading_modes.id]
   printType_id INTEGER [ref: > print_types.id]
   maturityRating_id INTEGER [ref: > maturity_ratings.id]
   allowAnonLogging BOOLEAN
   contentVersion VARCHAR(50)
+  panelizationSummary_id INTEGER [ref: > panelization_summaries.id]
+  imageLinks_id INTEGER [ref: > image_links.id]
   language_id INTEGER [ref: > language_codes.id]
   previewLink VARCHAR(250)
   infoLink VARCHAR(250)
@@ -42,7 +47,6 @@ Table industry_identifiers {
 
 Table reading_modes {
   id SERIAL [pk, increment]
-  volume_info_id INTEGER [ref: > volume_info.id]
   text BOOLEAN
   image BOOLEAN
 }
@@ -65,14 +69,12 @@ Table maturity_ratings {
 
 Table panelization_summaries {
   id SERIAL [pk, increment]
-  volume_info_id INTEGER [ref: > volume_info.id]
   containsEpubBubbles BOOLEAN
   containsImageBubbles BOOLEAN
 }
 
 Table imageLinks {
   id SERIAL [pk, increment]
-  volume_info_id INTEGER [ref: > volume_info.id]
   smallThumbnail VARCHAR(250)
   thumbnail VARCHAR(250)
 }
