@@ -7,6 +7,8 @@ from db import db
 from resources.book import Book, BookID
 from resources.book_db import Db
 
+## CHANGE THE ABOVE FROM COPY WHEN READY AND WORKING!
+
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
@@ -19,8 +21,8 @@ def create_tables():
     db.create_all()
 
 
-api.add_resource(Book, '/book')
-api.add_resource(BookID, '/book/<int:book_id>')
+api.add_resource(Book, '/books')
+api.add_resource(BookID, '/books/<int:book_id>')
 api.add_resource(Db, '/db')
 
 

@@ -2,6 +2,8 @@ from db import db
 
 from datetime import datetime
 
+from models.volume_info import VolumeInfo
+
 
 class BookVolume(db.Model):
     __tablename__ = 'book_volume'
@@ -21,3 +23,9 @@ class BookVolume(db.Model):
     def save_to_db(self):
         db.session.add(self)
         db.session.commit()
+
+    @classmethod
+    def filter_by_year(cls, published_date):
+        #all_volumes = cls.query.join(VolumeInfo).filter(VolumeInfo.publishedDate.like(published_date)).all()
+        all_volumes = cls.query.all()
+        print(all_volumes)
