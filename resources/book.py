@@ -7,14 +7,17 @@ from models.book_volume import BookVolume
 class Book(Resource):
     def get(self):
         published_date = request.args.get('published_date')
-        print(published_date)
-        BookVolume.filter_by_year(published_date)
-
-
         list_of_authors = request.args.getlist('author')
+        if published_date:
+            filtered_book_volumes_list = BookVolume.filter_by_year(published_date)
+            return {'published_date': published_date,
+                    'list_of_book_volumes': filtered_book_volumes_list}
 
-        return {'published_date': published_date,
-                'list_of_authors': list_of_authors}
+        if list_of_authors:
+            pass
+
+
+
 
 
 class BookID(Resource):

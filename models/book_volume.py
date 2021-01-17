@@ -15,10 +15,10 @@ class BookVolume(db.Model):
     created_at = db.Column(db.DateTime())
     last_update = db.Column(db.DateTime(), default=datetime.utcnow())
 
-    volume_info = db.relationship('VolumeInfo')
-    sale_info = db.relationship('SaleInfo')
-    access_info = db.relationship('AccessInfo')
-    search_info = db.relationship('SearchInfo')
+    volume_info = db.relationship('VolumeInfo', uselist=False, back_populates="book_volume")
+    sale_info = db.relationship('SaleInfo', uselist=False, back_populates="book_volume")
+    access_info = db.relationship('AccessInfo', uselist=False, back_populates="book_volume")
+    search_info = db.relationship('SearchInfo', uselist=False, back_populates="book_volume")
 
     def save_to_db(self):
         db.session.add(self)
@@ -26,6 +26,14 @@ class BookVolume(db.Model):
 
     @classmethod
     def filter_by_year(cls, published_date):
-        #all_volumes = cls.query.join(VolumeInfo).filter(VolumeInfo.publishedDate.like(published_date)).all()
-        all_volumes = cls.query.all()
-        print(all_volumes)
+        filtered_book_volumes = cls.query.join(VolumeInfo).filter(
+            VolumeInfo.publishedDate.contains(published_date)).all()
+        filtered_book_volumes_list = []
+        for book_volume in filtered_book_volumes:
+            new_element = {"Published date": book_volume.volume_info.publishedDate,
+                           "Title": book_volume.volume_info.title}
+            filtered_book_volumes_list.append(new_element)
+        return filtered_book_volumes_list
+
+    @classmethod
+    def sort_by_published_date(cls):

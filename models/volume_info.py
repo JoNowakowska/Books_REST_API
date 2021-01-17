@@ -81,6 +81,8 @@ class VolumeInfo(db.Model):
     industry_identifiers = db.relationship('IndustryIdentifier')
     categories = db.relationship('Category', secondary=volume_info_category)
 
+    book_volume = db.relationship('BookVolume', back_populates="volume_info")
+
     def save_to_db(self):
         db.session.add(self)
         db.session.commit()

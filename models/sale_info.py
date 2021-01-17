@@ -47,6 +47,8 @@ class SaleInfo(db.Model):
 
     offers = db.relationship('Offer', secondary=sale_info_offer)
 
+    book_volume = db.relationship('BookVolume', back_populates="sale_info")
+
     def save_to_db(self):
         db.session.add(self)
         db.session.commit()

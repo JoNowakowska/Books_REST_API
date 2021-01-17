@@ -11,6 +11,8 @@ class SearchInfo(db.Model):
     )
     textSnippet = db.Column(db.String(500))
 
+    book_volume = db.relationship('BookVolume', back_populates="search_info")
+
     def save_to_db(self):
         db.session.add(self)
         db.session.commit()
