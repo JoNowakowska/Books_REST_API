@@ -5,11 +5,11 @@ from flask_restful import Api
 
 from db import db
 from resources.book import Book, BookID
-from resources.db import Db
+from resources.book_db import Db
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('sqlite:///data.db')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 
 api = Api(app)
 
@@ -19,7 +19,7 @@ def create_tables():
     db.create_all()
 
 
-api.add_resource(Book, '/book', endpoint={'test': 'value'})
+api.add_resource(Book, '/book')
 api.add_resource(BookID, '/book/<int:book_id>')
 api.add_resource(Db, '/db')
 

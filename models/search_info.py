@@ -10,3 +10,7 @@ class SearchInfo(db.Model):
         nullable=False
     )
     textSnippet = db.Column(db.String(500))
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()

@@ -47,6 +47,10 @@ class SaleInfo(db.Model):
 
     offers = db.relationship('Offer', secondary=sale_info_offer)
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class CountryCode(db.Model):
     __tablename__ = 'country_code'
@@ -56,6 +60,10 @@ class CountryCode(db.Model):
 
     sales_info = db.relationship('SaleInfo')
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class Saleability(db.Model):
     __tablename__ = 'saleability'
@@ -63,6 +71,10 @@ class Saleability(db.Model):
     option_name = db.Column(db.String(50))
 
     sales_info = db.relationship('SaleInfo')
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
 
 class BasicListPrice(db.Model):
@@ -76,6 +88,10 @@ class BasicListPrice(db.Model):
 
     sales_info = db.relationship('SaleInfo')
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class BasicRetailPrice(db.Model):
     __tablename__ = 'basic_retail_price'
@@ -88,12 +104,20 @@ class BasicRetailPrice(db.Model):
 
     sales_info = db.relationship('SaleInfo')
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class CurrencyCode(db.Model):
     __tablename__ = 'currency_code'
     id = db.Column(db.Integer(), primary_key=True)
     currencyCode = db.Column(db.String(10))
     currency_name = db.Column(db.String(50))
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
 
 class Offer(db.Model):
@@ -109,6 +133,10 @@ class Offer(db.Model):
         db.ForeignKey('offer_retail_price.id')
     )
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class OfferListPrice(db.Model):
     __tablename__ = 'offer_list_price'
@@ -119,6 +147,10 @@ class OfferListPrice(db.Model):
         db.ForeignKey('currency_code.id')
     )
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class OfferRetailPrice(db.Model):
     __tablename__ = 'offer_retail_price'
@@ -128,3 +160,7 @@ class OfferRetailPrice(db.Model):
         db.Integer(),
         db.ForeignKey('currency_code.id')
     )
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()

@@ -45,8 +45,8 @@ class VolumeInfo(db.Model):
     )
     title = db.Column(db.String(300))
     publisher = db.Column(db.String(100))
-    publishedDate = db.Column(db.Date())
-    description = db.Column(db.String(2000))
+    publishedDate = db.Column(db.String(50))
+    description = db.Column(db.String())
     reading_mode_id = db.Column(
         db.Integer(),
         db.ForeignKey('reading_mode.id')
@@ -67,7 +67,7 @@ class VolumeInfo(db.Model):
     )
     imageLinks_id = db.Column(
         db.Integer,
-        db.ForeignKey('imageLinks.id')
+        db.ForeignKey('image_links.id')
     )
     language_id = db.Column(
         db.Integer(),
@@ -81,6 +81,10 @@ class VolumeInfo(db.Model):
     industry_identifiers = db.relationship('IndustryIdentifier')
     categories = db.relationship('Category', secondary=volume_info_category)
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class ReadingMode(db.Model):
     __tablename__ = 'reading_mode'
@@ -90,6 +94,10 @@ class ReadingMode(db.Model):
 
     volumes_info = db.relationship('VolumeInfo')
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class PrintType(db.Model):
     __tablename__ = 'print_type'
@@ -98,6 +106,10 @@ class PrintType(db.Model):
 
     volumes_info = db.relationship('VolumeInfo')
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class MaturityRating(db.Model):
     __tablename__ = 'maturity_rating'
@@ -105,6 +117,10 @@ class MaturityRating(db.Model):
     name = db.Column(db.String(50))
 
     volumes_info = db.relationship('VolumeInfo')
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
 
 class PanelizationSummary(db.Model):
@@ -115,6 +131,10 @@ class PanelizationSummary(db.Model):
 
     volumes_info = db.relationship('VolumeInfo')
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class ImageLinks(db.Model):
     __tablename__ = 'image_links'
@@ -123,6 +143,10 @@ class ImageLinks(db.Model):
     thumbnail = db.Column(db.String(250))
 
     volume_info = db.relationship('VolumeInfo')
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
 
 class LanguageCode(db.Model):
@@ -133,11 +157,19 @@ class LanguageCode(db.Model):
 
     volumes_info = db.relationship('VolumeInfo')
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class Author(db.Model):
     __tablename__ = 'author'
     id = db.Column(db.Integer(), primary_key=True)
     name = db.Column(db.String(150))
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
 
 class IndustryIdentifier(db.Model):
@@ -151,8 +183,16 @@ class IndustryIdentifier(db.Model):
     type = db.Column(db.String(150))
     identifier = db.Column(db.Integer())
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class Category(db.Model):
     __tablename__ = 'category'
     id = db.Column(db.Integer(), primary_key=True)
     cat_name = db.Column(db.String(50))
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()

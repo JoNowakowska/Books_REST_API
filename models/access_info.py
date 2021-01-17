@@ -38,11 +38,19 @@ class AccessInfo(db.Model):
     )
     quoteSharingAllowed = db.Column(db.Boolean())
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class Viewability(db.Model):
     __tablename__ = 'viewability'
     id = db.Column(db.Integer(), primary_key=True)
     viewability_name = db.Column(db.String(50))
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
 
 class TextToSpeechPermission(db.Model):
@@ -50,21 +58,37 @@ class TextToSpeechPermission(db.Model):
     id = db.Column(db.Integer(), primary_key=True)
     permission_type = db.Column(db.String(50))
 
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
 
 class EPub(db.Model):
     __tablename__ = 'epub'
     id = db.Column(db.Integer(), primary_key=True)
-    isAvailable = db.Column(db.Booelan())
+    isAvailable = db.Column(db.Boolean())
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
 
 class Pdf(db.Model):
     __tablename__ = 'pdf'
     id = db.Column(db.Integer(), primary_key=True)
-    isAvailable = db.Column(db.Booelan())
+    isAvailable = db.Column(db.Boolean())
     acsTokenLink = db.Column(db.String(250))
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
 
 class AccessViewStatus(db.Model):
     __tablename__ = 'access_view_status'
     id = db.Column(db.Integer(), primary_key=True)
     status = db.Column(db.String(50))
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()

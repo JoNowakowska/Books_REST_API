@@ -17,3 +17,7 @@ class BookVolume(db.Model):
     sale_info = db.relationship('SaleInfo')
     access_info = db.relationship('AccessInfo')
     search_info = db.relationship('SearchInfo')
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
