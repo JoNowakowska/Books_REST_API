@@ -41,7 +41,7 @@ class BookVolume(db.Model):
             new_element = {
                 "title": book_volume.volume_info.title,
                 "authors": book_volume.volume_info.authors,
-                "published_date date": book_volume.volume_info.authors,
+                "published_date": book_volume.volume_info.publishedDate,
                 "categories": book_volume.volume_info.categories,
                 "average_rating": book_volume.volume_info.averageRating,
                 "ratings_count": book_volume.volume_info.ratingsCount,
@@ -62,7 +62,7 @@ class BookVolume(db.Model):
         book_info = {
             "title": book.volume_info.title,
             "authors": book.volume_info.authors,
-            "published_date date": book.volume_info.authors,
+            "published_date": book.volume_info.publishedDate,
             "categories": book.volume_info.categories,
             "average_rating": book.volume_info.averageRating,
             "ratings_count": book.volume_info.ratingsCount,
