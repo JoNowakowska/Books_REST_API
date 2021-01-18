@@ -11,13 +11,20 @@ from resources.saving_functions_volume_info import save_volume_info
 
 class Db(Resource):
     def post(self):
-
         data = json.loads(request.data)
 
-        unsaved_id_list = []
+        unsaved_internal_id_list = []
 
         for item in data.get('items'):
-            book_volume_item_id = save_book_volume(item)
+            book_volume_item_id = ''
+            try:
+                book_volume_item_id = save_book_volume(item)
+            except Exception as e:
+                print(e)
+                unsaved_internal_id_list.append(item.get('id')
+                                                if item.get('id')
+                                                else 'Unknown ID of a book with an etag {}'.format(item.get('etag'))
+                                                )
             if book_volume_item_id:
                 item_volume_info = item.get('volumeInfo')
                 item_sale_info = item.get('saleInfo')
@@ -31,13 +38,12 @@ class Db(Resource):
                     save_access_info(item_access_info, book_volume_item_id)
                 if item_search_info:
                     save_search_info(item_search_info, book_volume_item_id)
-            else:
-                unsaved_id = item.get('id')
-                unsaved_id_list.append(unsaved_id)
 
         return {"message": "Process finished!",
                 "warnings": "{}".format(
                     '''Books with the following ids were unsaved,
-                    most probably they already exist in the db: {}'''.format(
-                        unsaved_id_list) if unsaved_id_list else None)
+                    most probably because these ids already exist in the db: {}'''.format(
+                        unsaved_internal_id_list) if unsaved_internal_id_list else None)
                 }, 200
+
+

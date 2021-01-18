@@ -55,6 +55,8 @@ class VolumeInfo(db.Model):
         db.Integer(),
         db.ForeignKey('print_type.id')
     )
+    averageRating = db.Column(db.Float())
+    ratingsCount = db.Column(db.Integer())
     maturityRating_id = db.Column(
         db.Integer(),
         db.ForeignKey('maturity_rating.id')
@@ -98,7 +100,7 @@ class ReadingMode(db.Model):
     text = (db.Boolean())
     image = (db.Boolean())
 
-    volumes_info = db.relationship('VolumeInfo')
+    volumes_info = db.relationship('VolumeInfo', backref='reading_mode')
 
     def save_to_db(self):
         db.session.add(self)
@@ -110,7 +112,7 @@ class PrintType(db.Model):
     id = db.Column(db.Integer(), primary_key=True)
     name = db.Column(db.String(50))
 
-    volumes_info = db.relationship('VolumeInfo')
+    volumes_info = db.relationship('VolumeInfo', backref='print_type')
 
     def save_to_db(self):
         db.session.add(self)
@@ -122,7 +124,7 @@ class MaturityRating(db.Model):
     id = db.Column(db.Integer(), primary_key=True)
     name = db.Column(db.String(50))
 
-    volumes_info = db.relationship('VolumeInfo')
+    volumes_info = db.relationship('VolumeInfo', backref='maturity_rating')
 
     def save_to_db(self):
         db.session.add(self)
@@ -135,7 +137,7 @@ class PanelizationSummary(db.Model):
     containsEpubBubbles = db.Column(db.Boolean())
     containsImageBubbles = db.Column(db.Boolean())
 
-    volumes_info = db.relationship('VolumeInfo')
+    volumes_info = db.relationship('VolumeInfo', backref='panelization_summary')
 
     def save_to_db(self):
         db.session.add(self)
@@ -148,7 +150,7 @@ class ImageLinks(db.Model):
     smallThumbnail = db.Column(db.String(250))
     thumbnail = db.Column(db.String(250))
 
-    volume_info = db.relationship('VolumeInfo')
+    volumes_info = db.relationship('VolumeInfo', backref='image_links')
 
     def save_to_db(self):
         db.session.add(self)
@@ -161,7 +163,7 @@ class LanguageCode(db.Model):
     full_name = db.Column(db.String(100))
     language_code = db.Column(db.String(10))
 
-    volumes_info = db.relationship('VolumeInfo')
+    volumes_info = db.relationship('VolumeInfo', backref='language_code')
 
     def save_to_db(self):
         db.session.add(self)

@@ -145,6 +145,8 @@ def save_volume_info(item_volume_info, book_volume_item_id):
         reading_mode_id=reading_mode_item_id,
         printType_id=print_type_item_id,
         categories=temp_categories_str,
+        averageRating=item_volume_info.get('averageRating'),
+        ratingsCount=item_volume_info.get('ratingsCount'),
         maturityRating_id=maturity_rating_item_id,
         allowAnonLogging=item_volume_info.get('allowAnonLogging'),
         contentVersion=item_volume_info.get('contentVersion'),

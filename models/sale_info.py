@@ -62,7 +62,7 @@ class CountryCode(db.Model):
     full_name = db.Column(db.String(100))
     country_code = db.Column(db.String(10))
 
-    sales_info = db.relationship('SaleInfo')
+    sales_info = db.relationship('SaleInfo', backref='country_code')
 
     def save_to_db(self):
         db.session.add(self)
@@ -74,7 +74,7 @@ class Saleability(db.Model):
     id = db.Column(db.Integer(), primary_key=True)
     option_name = db.Column(db.String(50))
 
-    sales_info = db.relationship('SaleInfo')
+    sales_info = db.relationship('SaleInfo', backref='saleability')
 
     def save_to_db(self):
         db.session.add(self)
@@ -90,7 +90,7 @@ class BasicListPrice(db.Model):
         db.ForeignKey('currency_code.id')
     )
 
-    sales_info = db.relationship('SaleInfo')
+    sales_info = db.relationship('SaleInfo', backref='basic_list_price')
 
     def save_to_db(self):
         db.session.add(self)
@@ -106,7 +106,7 @@ class BasicRetailPrice(db.Model):
         db.ForeignKey('currency_code.id')
     )
 
-    sales_info = db.relationship('SaleInfo')
+    sales_info = db.relationship('SaleInfo', backref='basic_retail_price')
 
     def save_to_db(self):
         db.session.add(self)

@@ -1,13 +1,12 @@
 import os
 
+from db import db
+
 from flask import Flask
 from flask_restful import Api
 
-from db import db
 from resources.book import Book, BookID
 from resources.book_db import Db
-
-## CHANGE THE ABOVE FROM COPY WHEN READY AND WORKING!
 
 
 app = Flask(__name__)
