@@ -24,7 +24,7 @@ api.add_resource(Book, '/books')
 api.add_resource(BookID, '/books/<int:book_id>')
 api.add_resource(Db, '/db')
 
+db.init_app(app)
 
 if __name__ == '__main__':
-    db.init_app(app)
     app.run(port=5000, debug=True)
