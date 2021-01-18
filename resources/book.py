@@ -23,3 +23,10 @@ class BookID(Resource):
     def get(self, book_id):
         book_info = BookVolume.show_by_id(book_id)
         return render_template('book.html', book_id=book_id, book_info=book_info)
+
+
+class Author(Resource):
+    def get(self):
+        list_of_authors = request.args.getlist('author')
+        results = BookVolume.filter_by_authors(list_of_authors)
+        return {"msg": results}

@@ -1,5 +1,7 @@
 from datetime import datetime
 
+from sqlalchemy import text, or_
+
 from db import db
 
 from models.volume_info import VolumeInfo, ImageLinks
@@ -32,7 +34,7 @@ class BookVolume(db.Model):
     @classmethod
     def show_all_book_volumes(cls):
         all_book_volumes = cls.query.join(
-            VolumeInfo
+            VolumeInfo, BookVolume.id == VolumeInfo.book_volume_id
         ).join(
             ImageLinks, VolumeInfo.imageLinks_id == ImageLinks.id
         ).all()
@@ -53,7 +55,7 @@ class BookVolume(db.Model):
     @classmethod
     def show_by_id(cls, book_id):
         book = BookVolume.query.join(
-            VolumeInfo
+            VolumeInfo, BookVolume.id == VolumeInfo.book_volume_id
         ).join(
             ImageLinks, VolumeInfo.imageLinks_id == ImageLinks.id
         ).filter(
@@ -72,15 +74,101 @@ class BookVolume(db.Model):
 
     @classmethod
     def filter_by_year(cls, published_date):
-        filtered_book_volumes = cls.query.join(VolumeInfo).filter(
-            VolumeInfo.publishedDate.contains(published_date)).all()
+        filtered_book_volumes = cls.query.join(
+            VolumeInfo, BookVolume.id == VolumeInfo.book_volume_id
+        ).join(
+            ImageLinks, VolumeInfo.imageLinks_id == ImageLinks.id
+        ).filter(
+            VolumeInfo.publishedDate.contains(published_date)
+        ).all()
         filtered_book_volumes_list = []
         for book_volume in filtered_book_volumes:
-            new_element = {"Published date": book_volume.volume_info.publishedDate,
-                           "Title": book_volume.volume_info.title}
+            new_element = {
+                "title": book_volume.volume_info.title,
+                "authors": book_volume.volume_info.authors,
+                "published_date": book_volume.volume_info.publishedDate,
+                "categories": book_volume.volume_info.categories,
+                "average_rating": book_volume.volume_info.averageRating,
+                "ratings_count": book_volume.volume_info.ratingsCount,
+                "thumbnail": book_volume.volume_info.image_links.thumbnail
+            }
             filtered_book_volumes_list.append(new_element)
         return filtered_book_volumes_list
 
     @classmethod
-    def sort_by_published_date(cls):
-        pass
+    def sort_by_published_date_asc(cls):
+        all_book_volumes = cls.query.join(
+            VolumeInfo, BookVolume.id == VolumeInfo.book_volume_id
+        ).join(
+            ImageLinks, VolumeInfo.imageLinks_id == ImageLinks.id
+        ).order_by(
+            VolumeInfo.publishedDate
+        ).all()
+        all_book_volumes_list = []
+        for book_volume in all_book_volumes:
+            new_element = {
+                "title": book_volume.volume_info.title,
+                "authors": book_volume.volume_info.authors,
+                "published_date": book_volume.volume_info.publishedDate,
+                "categories": book_volume.volume_info.categories,
+                "average_rating": book_volume.volume_info.averageRating,
+                "ratings_count": book_volume.volume_info.ratingsCount,
+                "thumbnail": book_volume.volume_info.image_links.thumbnail
+            }
+            all_book_volumes_list.append(new_element)
+        return all_book_volumes_list
+
+    @classmethod
+    def sort_by_published_date_desc(cls):
+        all_book_volumes = cls.query.join(
+            VolumeInfo, BookVolume.id == VolumeInfo.book_volume_id
+        ).join(
+            ImageLinks, VolumeInfo.imageLinks_id == ImageLinks.id
+        ).order_by(
+            VolumeInfo.publishedDate.desc()
+        ).all()
+        all_book_volumes_list = []
+        for book_volume in all_book_volumes:
+            new_element = {
+                "title": book_volume.volume_info.title,
+                "authors": book_volume.volume_info.authors,
+                "published_date": book_volume.volume_info.publishedDate,
+                "categories": book_volume.volume_info.categories,
+                "average_rating": book_volume.volume_info.averageRating,
+                "ratings_count": book_volume.volume_info.ratingsCount,
+                "thumbnail": book_volume.volume_info.image_links.thumbnail
+            }
+            all_book_volumes_list.append(new_element)
+        return all_book_volumes_list
+
+    @classmethod
+    def filter_by_authors(cls, author_list):
+        list_of_query_components = []
+        for author in author_list:
+            new_comp = "VolumeInfo.authors.contains('{}')".format(author[1:-1])
+            list_of_query_components.append(new_comp)
+        string_of_query_components = ", ".join(list_of_query_components)
+        final_string_of_query_components = "or_(" + string_of_query_components + ')'
+        print(final_string_of_query_components)
+
+        filtered_book_volumes = cls.query.join(
+            VolumeInfo, BookVolume.id == VolumeInfo.book_volume_id
+        ).join(
+            ImageLinks, VolumeInfo.imageLinks_id == ImageLinks.id
+        ).filter(
+            text(final_string_of_query_components)
+            #or_(VolumeInfo.authors.contains('Grzegorz'), VolumeInfo.authors.contains('Artur'))
+        ).all()
+        filtered_book_volumes_list = []
+        for book_volume in filtered_book_volumes:
+            new_element = {
+                "title": book_volume.volume_info.title,
+                "authors": book_volume.volume_info.authors,
+                "published_date": book_volume.volume_info.publishedDate,
+                "categories": book_volume.volume_info.categories,
+                "average_rating": book_volume.volume_info.averageRating,
+                "ratings_count": book_volume.volume_info.ratingsCount,
+                "thumbnail": book_volume.volume_info.image_links.thumbnail
+            }
+            filtered_book_volumes_list.append(new_element)
+        return filtered_book_volumes_list
