@@ -77,9 +77,13 @@ class VolumeInfo(db.Model):
     infoLink = db.Column(db.String(250))
     canonicalVolumeLink = db.Column(db.String(250))
 
-    authors = db.relationship('Author', secondary=volume_info_author)
+    #authors = db.relationship('Author', secondary=volume_info_author)
+    authors = db.Column(db.String(500))
+
     industry_identifiers = db.relationship('IndustryIdentifier')
-    categories = db.relationship('Category', secondary=volume_info_category)
+
+    #categories = db.relationship('Category', secondary=volume_info_category)
+    categories = db.Column(db.String(500))
 
     book_volume = db.relationship('BookVolume', back_populates="volume_info")
 
@@ -164,16 +168,6 @@ class LanguageCode(db.Model):
         db.session.commit()
 
 
-class Author(db.Model):
-    __tablename__ = 'author'
-    id = db.Column(db.Integer(), primary_key=True)
-    name = db.Column(db.String(150))
-
-    def save_to_db(self):
-        db.session.add(self)
-        db.session.commit()
-
-
 class IndustryIdentifier(db.Model):
     __tablename__ = 'industry_identifier'
     id = db.Column(db.Integer(), primary_key=True)
@@ -190,6 +184,16 @@ class IndustryIdentifier(db.Model):
         db.session.commit()
 
 
+class Author(db.Model):
+    __tablename__ = 'author'
+    id = db.Column(db.Integer(), primary_key=True)
+    name = db.Column(db.String(150))
+
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
+
+
 class Category(db.Model):
     __tablename__ = 'category'
     id = db.Column(db.Integer(), primary_key=True)
@@ -197,4 +201,10 @@ class Category(db.Model):
 
     def save_to_db(self):
         db.session.add(self)
-        db.session.commit()
+        try:
+            db.session.commit()
+            return self
+        except:
+            existing_category = self.query.filter(Category.cat_name == self.cat_name).first()
+            db.session.rollback()
+            return existing_category

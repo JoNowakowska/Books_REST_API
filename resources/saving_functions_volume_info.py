@@ -1,5 +1,25 @@
 from models.volume_info import PrintType, MaturityRating, PanelizationSummary, \
-    ImageLinks, LanguageCode, ReadingMode, IndustryIdentifier, VolumeInfo
+    ImageLinks, LanguageCode, ReadingMode, IndustryIdentifier, VolumeInfo, Author, Category
+
+
+def save_authors(item_volume_info):
+    authors_list = item_volume_info.get('authors')
+    if authors_list:
+        saved_authors_list = []
+        for a in authors_list:
+            author_item = Author(
+                name=a
+            )
+            author = author_item.save_to_db()
+            saved_authors_list.append(author)
+        return saved_authors_list
+
+
+def save_temp_authors(item_volume_info):
+    authors_list = item_volume_info.get('authors')
+    if authors_list:
+        authors_str = ', '.join([str(author) for author in authors_list])
+        return authors_str
 
 
 def save_reading_mode(item_volume_info):
@@ -23,6 +43,26 @@ def save_print_type(item_volume_info):
         print_type_item.save_to_db()
         print_type_item_id = print_type_item.id
         return print_type_item_id
+
+
+def save_categories(item_volume_info):
+    categories_list = item_volume_info.get('categories')
+    if categories_list:
+        saved_categories_list = []
+        for c in categories_list:
+            category_item = Category(
+                cat_name=c
+            )
+            category = category_item.save_to_db()
+            saved_categories_list.append(category)
+        return saved_categories_list
+
+
+def save_temp_categories(item_volume_info):
+    categories_list = item_volume_info.get('categories')
+    if categories_list:
+        categories_str = ', '.join([str(category) for category in categories_list])
+        return categories_str
 
 
 def save_maturity_rating(item_volume_info):
@@ -90,17 +130,21 @@ def save_volume_info(item_volume_info, book_volume_item_id):
     panelization_summary_item_id = save_panelization_summary(item_volume_info)
     image_links_item_id = save_image_links(item_volume_info)
     language_code_item_id = save_language_code(item_volume_info)
-
-    # DODAC AUTORA I KILKA INNYCH BRAKOW!!!!
+    #saved_authors_list = save_authors(item_volume_info)
+    temp_authors_str = save_temp_authors(item_volume_info)
+    #saved_categories_list = save_categories(item_volume_info)
+    temp_categories_str = save_temp_categories(item_volume_info)
 
     volume_info_item = VolumeInfo(
         book_volume_id=book_volume_item_id,
+        authors=temp_authors_str,
         title=item_volume_info.get('title'),
         publisher=item_volume_info.get('publisher'),
         publishedDate=item_volume_info.get('publishedDate'),
         description=item_volume_info.get('description'),
         reading_mode_id=reading_mode_item_id,
         printType_id=print_type_item_id,
+        categories=temp_categories_str,
         maturityRating_id=maturity_rating_item_id,
         allowAnonLogging=item_volume_info.get('allowAnonLogging'),
         contentVersion=item_volume_info.get('contentVersion'),

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books API</title>
+</head>
+    <body>
+        <h3>Welcome, below is the book you've selected by its id number ({{book_id}})</h3>
+        {% for key, value in book_info.items() %}
+            <p>{{key}}: {{value}}</p>
+        {% endfor %}
+    </body>
+</html>

@@ -1,3 +1,5 @@
+from sqlalchemy import UniqueConstraint, and_
+
 from db import db
 
 
@@ -115,11 +117,15 @@ class CurrencyCode(db.Model):
     __tablename__ = 'currency_code'
     id = db.Column(db.Integer(), primary_key=True)
     currencyCode = db.Column(db.String(10))
-    currency_name = db.Column(db.String(50))
 
     def save_to_db(self):
         db.session.add(self)
-        db.session.commit()
+        try:
+            db.session.commit()
+            return self
+        except:
+            existing_currency = self.query.filter(CurrencyCode.currencyCode == self.currencyCode).first()
+            return existing_currency
 
 
 class Offer(db.Model):
@@ -138,6 +144,7 @@ class Offer(db.Model):
     def save_to_db(self):
         db.session.add(self)
         db.session.commit()
+        return self
 
 
 class OfferListPrice(db.Model):
@@ -148,10 +155,19 @@ class OfferListPrice(db.Model):
         db.Integer(),
         db.ForeignKey('currency_code.id')
     )
+    UniqueConstraint(amountInMicros, currencyCode_id)
 
     def save_to_db(self):
         db.session.add(self)
-        db.session.commit()
+        try:
+            db.session.commit()
+            return self
+        except:
+            existing_offer_list_price = self.query.filter(
+                and_(OfferListPrice.amountInMicros == self.amountInMicros,
+                     OfferListPrice.currencyCode_id == self.currencyCode_id).first()
+            )
+            return existing_offer_list_price
 
 
 class OfferRetailPrice(db.Model):
@@ -162,7 +178,16 @@ class OfferRetailPrice(db.Model):
         db.Integer(),
         db.ForeignKey('currency_code.id')
     )
+    UniqueConstraint(amountInMicros, currencyCode_id)
 
     def save_to_db(self):
         db.session.add(self)
-        db.session.commit()
+        try:
+            db.session.commit()
+            return self
+        except:
+            existing_offer_retail_price = self.query.filter(
+                and_(OfferRetailPrice.amountInMicros == self.amountInMicros,
+                     OfferRetailPrice.currencyCode_id == self.currencyCode_id).first()
+            )
+            return existing_offer_retail_price

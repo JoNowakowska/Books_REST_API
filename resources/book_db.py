@@ -14,7 +14,9 @@ class Db(Resource):
 
         data = json.loads(request.data)
 
-        for item in data['items']:
+        unsaved_id_list = []
+
+        for item in data.get('items'):
             book_volume_item_id = save_book_volume(item)
             if book_volume_item_id:
                 item_volume_info = item.get('volumeInfo')
@@ -29,5 +31,13 @@ class Db(Resource):
                     save_access_info(item_access_info, book_volume_item_id)
                 if item_search_info:
                     save_search_info(item_search_info, book_volume_item_id)
+            else:
+                unsaved_id = item.get('id')
+                unsaved_id_list.append(unsaved_id)
 
-        return {"message": "Success!!!"}, 200
+        return {"message": "Process finished!",
+                "warnings": "{}".format(
+                    '''Books with the following ids were unsaved,
+                    most probably they already exist in the db: {}'''.format(
+                        unsaved_id_list) if unsaved_id_list else None)
+                }, 200
