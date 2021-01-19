@@ -31,10 +31,9 @@ class Book(Resource):
         else:
             return {"msg": "URL not found"}, 404
 
-    def post(self):
-        print(request.form)
-        if request.form['FilterByYear'] == 'FilterByYear':
-            print('Hello')
+    #def post(self):
+    #    if request.form['FilterByYear'] == 'FilterByYear':
+    #        print('Hello')
 
 
 class BookID(Resource):
