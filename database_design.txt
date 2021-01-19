@@ -1,5 +1,5 @@
 ## INFO:
-## To see how the database looks like, paste the below code to the interpreter at the dbdiagrams.io website.
+## To see how the database looks like, paste the below code to the interpreter at the dbdiagram.io website.
 
 
 Table book_volume {
