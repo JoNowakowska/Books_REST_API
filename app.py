@@ -5,7 +5,7 @@ from db import db
 from flask import Flask
 from flask_restful import Api
 
-from resources.book import Book, BookID, Author
+from resources.book import Book, BookID
 from resources.book_db import Db
 
 
@@ -21,10 +21,9 @@ def create_tables():
     db.create_all()
 
 
-api.add_resource(Book, '/books')
+api.add_resource(Book, '/books', endpoint='books')
 api.add_resource(BookID, '/books/<int:book_id>')
 api.add_resource(Db, '/db')
-api.add_resource(Author, '/author')
 
 db.init_app(app)
 

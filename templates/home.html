@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
+    <meta content="text/html">
     <title>Books API</title>
+
 </head>
     <body>
         <h3>Welcome, below are all the books you can find in our database</h3>
@@ -13,13 +15,14 @@
           <button type="submit" name="filter_by_year" value="FilterByYear">Filter by year</button>
         </form>
 
-        <a href="url">Sort by published date ascending</a>
-        <a href="url">Sort by published date descending</a>
+        <a href="{{ url_for('books') }}/books?sort=-published_date">Sort by published date ascending</a>
+        <a href="/books?sort=-published_date">Sort by published date descending</a>
 
         {% for book in all_book_volumes_list %}
             {% for key, value in book.items() %}
                 <p>{{key}}: {{value}}</p>
             {% endfor %}
         {% endfor %}
+
     </body>
 </html>
