@@ -23,13 +23,13 @@ class Book(Resource):
             elif sort_method == ['published_date']:
                 all_book_volumes_list = BookVolume.sort_by_published_date_asc()
                 return render_template('home.html', all_book_volumes_list=all_book_volumes_list)
-            else:
-                return {"msg": "URL not found"}, 404
+            #else:
+                #return {"msg": "URL not found"}, 404
         elif len(request.args) == 0:
             all_book_volumes_list = BookVolume.show_all_book_volumes()
             return render_template('home.html', all_book_volumes_list=all_book_volumes_list)
-        else:
-            return {"msg": "URL not found"}, 404
+        #else:
+            #return {"msg": "URL not found"}, 404
 
     #def post(self):
     #    if request.form['FilterByYear'] == 'FilterByYear':
