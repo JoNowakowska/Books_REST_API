@@ -179,7 +179,7 @@ class IndustryIdentifier(db.Model):
         nullable=False
     )
     type = db.Column(db.String(150))
-    identifier = db.Column(db.Integer())
+    identifier = db.Column(db.String())
 
     def save_to_db(self):
         db.session.add(self)

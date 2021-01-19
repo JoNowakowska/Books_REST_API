@@ -131,7 +131,7 @@ class CurrencyCode(db.Model):
 class Offer(db.Model):
     __tablename__ = 'offer'
     id = db.Column(db.Integer(), primary_key=True)
-    finskyOfferType = db.Column(db.Integer())
+    finskyOfferType = db.Column(db.String())
     offer_list_price_id = db.Column(
         db.Integer(),
         db.ForeignKey('offer_list_price.id')
