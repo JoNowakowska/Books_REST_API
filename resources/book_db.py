@@ -40,9 +40,6 @@ class Db(Resource):
 
         return {"message": "Process finished!",
                 "warnings": "{}".format(
-                    '''Books with the following ids were unsaved,
-                    because they already exist in the db: {}'''.format(
+                    '''Books with the following ids were unsaved, because they already exist in the db: {}'''.format(
                         unsaved_internal_id_list) if unsaved_internal_id_list else None)
                 }, 200
-
-

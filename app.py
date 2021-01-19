@@ -5,7 +5,7 @@ from db import db
 from flask import Flask
 from flask_restful import Api
 
-from resources.book import Book, BookID, Test
+from resources.book import Book, BookID
 from resources.book_db import Db
 
 

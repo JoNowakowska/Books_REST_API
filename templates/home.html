@@ -7,7 +7,7 @@
 
 </head>
     <body>
-        <h3>Welcome, below are all the books you can find in our database</h3>
+        <h3>Welcome, below are all the books you can find in our database!</h3>
 
         <form action='/books' method="GET">
           <label for="pyear">Enter publish year of your interest</label>
@@ -17,19 +17,17 @@
           <button type="submit">Filter by year</button>
         </form>
         <div>
-        <button onclick={{sort_ascending}}>Sort by year ascending</button>
+        <a href="/books?sort=published_date">Sort by published date ascending</a>
         </div>
         <div>
-        <button onclick={{sort_descending}}>Sort by year descending</button>
-        </div>
-        <a href="/books?sort=published_date">Sort by published date ascending</a>
         <a href="/books?sort=-published_date">Sort by published date descending</a>
-
+        </div>
+        <div>
         {% for book in all_book_volumes_list %}
             {% for key, value in book.items() %}
                 <p>{{key}}: {{value}}</p>
             {% endfor %}
         {% endfor %}
-
+        </div>
     </body>
 </html>

@@ -1,5 +1,5 @@
 from flask_restful import Resource
-from flask import request, render_template
+from flask import request
 
 from models.book_volume import BookVolume
 
@@ -12,31 +12,41 @@ class Book(Resource):
 
         if published_year:
             all_book_volumes_list = BookVolume.filter_by_year(published_year)
-            return render_template('home.html', all_book_volumes_list=all_book_volumes_list)
+            return {
+                       "books published in {}".format(published_year): all_book_volumes_list
+                   }, 200
         elif list_of_authors:
             all_book_volumes_list = BookVolume.filter_by_authors(list_of_authors)
-            return render_template('home.html', all_book_volumes_list=all_book_volumes_list)
+            return {
+                       "books written by {}".format(
+                           " or ".join(list_of_authors)
+                       ): all_book_volumes_list
+                   }, 200
         elif sort_method:
             if sort_method == ['-published_date']:
                 all_book_volumes_list = BookVolume.sort_by_published_date_desc()
-                return render_template('home.html', all_book_volumes_list=all_book_volumes_list)
+                return {
+                           "books currently saved to db sorted descending": all_book_volumes_list
+                       }, 200
             elif sort_method == ['published_date']:
                 all_book_volumes_list = BookVolume.sort_by_published_date_asc()
-                return render_template('home.html', all_book_volumes_list=all_book_volumes_list)
-            #else:
-                #return {"msg": "URL not found"}, 404
+                return {
+                           "books currently saved to db sorted ascending": all_book_volumes_list
+                       }, 200
+            else:
+                return {"msg": "URL not found"}, 404
         elif len(request.args) == 0:
             all_book_volumes_list = BookVolume.show_all_book_volumes()
-            return render_template('home.html', all_book_volumes_list=all_book_volumes_list)
-        #else:
-            #return {"msg": "URL not found"}, 404
-
-    #def post(self):
-    #    if request.form['FilterByYear'] == 'FilterByYear':
-    #        print('Hello')
+            return {
+                       "books currently saved to db": all_book_volumes_list
+                   }, 200
+        else:
+            return {"msg": "URL not found"}, 404
 
 
 class BookID(Resource):
     def get(self, book_id):
         book_info = BookVolume.show_by_id(book_id)
-        return render_template('book.html', book_id=book_id, book_info=book_info)
+        return {
+                "book with id {}".format(book_id): book_info
+                }, 200
