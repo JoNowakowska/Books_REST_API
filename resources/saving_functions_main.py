@@ -22,7 +22,7 @@ def get_items_from_url(q):
 def save_items(items_to_save_to_db):
     unsaved_internal_id_list = []
 
-    for item in items_to_save_to_db.get('items'): # może nie działać, wtedy musze sie upewnic jak pobrac items z items_to_save_to_db
+    for item in items_to_save_to_db.get('items'):
         item_internal_id = item.get('id')
         if item_internal_id:
             existing_in_db = BookVolume.find_by_internal_id(item_internal_id)
