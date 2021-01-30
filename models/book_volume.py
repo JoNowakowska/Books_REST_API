@@ -1,7 +1,5 @@
 from datetime import datetime
 
-from sqlalchemy import text, or_
-
 from db import db
 
 from models.volume_info import VolumeInfo, ImageLinks
@@ -22,6 +20,18 @@ class BookVolume(db.Model):
     access_info = db.relationship('AccessInfo', uselist=False, back_populates="book_volume")
     search_info = db.relationship('SearchInfo', uselist=False, back_populates="book_volume")
 
+    @staticmethod
+    def json_static(book_volume):
+        return {
+                "title": book_volume.volume_info.title,
+                "authors": book_volume.volume_info.authors,
+                "published_date": book_volume.volume_info.publishedDate,
+                "categories": book_volume.volume_info.categories,
+                "average_rating": book_volume.volume_info.averageRating,
+                "ratings_count": book_volume.volume_info.ratingsCount,
+                "thumbnail": book_volume.volume_info.image_links.thumbnail
+                }
+
     def save_to_db(self):
         db.session.add(self)
         db.session.commit()
@@ -40,36 +50,20 @@ class BookVolume(db.Model):
         ).all()
         all_book_volumes_list = []
         for book_volume in all_book_volumes:
-            new_element = {
-                "title": book_volume.volume_info.title,
-                "authors": book_volume.volume_info.authors,
-                "published_date": book_volume.volume_info.publishedDate,
-                "categories": book_volume.volume_info.categories,
-                "average_rating": book_volume.volume_info.averageRating,
-                "ratings_count": book_volume.volume_info.ratingsCount,
-                "thumbnail": book_volume.volume_info.image_links.thumbnail
-            }
+            new_element = cls.json_static(book_volume)
             all_book_volumes_list.append(new_element)
         return all_book_volumes_list
 
     @classmethod
     def show_by_id(cls, book_id):
-        book = BookVolume.query.join(
+        book_volume = BookVolume.query.join(
             VolumeInfo, BookVolume.id == VolumeInfo.book_volume_id
         ).join(
             ImageLinks, VolumeInfo.imageLinks_id == ImageLinks.id
         ).filter(
             BookVolume.id == book_id
         ).first()
-        book_info = {
-            "title": book.volume_info.title,
-            "authors": book.volume_info.authors,
-            "published_date": book.volume_info.publishedDate,
-            "categories": book.volume_info.categories,
-            "average_rating": book.volume_info.averageRating,
-            "ratings_count": book.volume_info.ratingsCount,
-            "thumbnail": book.volume_info.image_links.thumbnail
-        }
+        book_info = cls.json_static(book_volume)
         return book_info
 
     @classmethod
@@ -83,15 +77,7 @@ class BookVolume(db.Model):
         ).all()
         filtered_book_volumes_list = []
         for book_volume in filtered_book_volumes:
-            new_element = {
-                "title": book_volume.volume_info.title,
-                "authors": book_volume.volume_info.authors,
-                "published_date": book_volume.volume_info.publishedDate,
-                "categories": book_volume.volume_info.categories,
-                "average_rating": book_volume.volume_info.averageRating,
-                "ratings_count": book_volume.volume_info.ratingsCount,
-                "thumbnail": book_volume.volume_info.image_links.thumbnail
-            }
+            new_element = cls.json_static(book_volume)
             filtered_book_volumes_list.append(new_element)
         return filtered_book_volumes_list
 
@@ -106,15 +92,7 @@ class BookVolume(db.Model):
         ).all()
         all_book_volumes_list = []
         for book_volume in all_book_volumes:
-            new_element = {
-                "title": book_volume.volume_info.title,
-                "authors": book_volume.volume_info.authors,
-                "published_date": book_volume.volume_info.publishedDate,
-                "categories": book_volume.volume_info.categories,
-                "average_rating": book_volume.volume_info.averageRating,
-                "ratings_count": book_volume.volume_info.ratingsCount,
-                "thumbnail": book_volume.volume_info.image_links.thumbnail
-            }
+            new_element = cls.json_static(book_volume)
             all_book_volumes_list.append(new_element)
         return all_book_volumes_list
 
@@ -129,15 +107,7 @@ class BookVolume(db.Model):
         ).all()
         all_book_volumes_list = []
         for book_volume in all_book_volumes:
-            new_element = {
-                "title": book_volume.volume_info.title,
-                "authors": book_volume.volume_info.authors,
-                "published_date": book_volume.volume_info.publishedDate,
-                "categories": book_volume.volume_info.categories,
-                "average_rating": book_volume.volume_info.averageRating,
-                "ratings_count": book_volume.volume_info.ratingsCount,
-                "thumbnail": book_volume.volume_info.image_links.thumbnail
-            }
+            new_element = cls.json_static(book_volume)
             all_book_volumes_list.append(new_element)
         return all_book_volumes_list
 
@@ -154,14 +124,6 @@ class BookVolume(db.Model):
             ).all()
 
             for book_volume in filtered_book_volumes:
-                new_element = {
-                    "title": book_volume.volume_info.title,
-                    "authors": book_volume.volume_info.authors,
-                    "published_date": book_volume.volume_info.publishedDate,
-                    "categories": book_volume.volume_info.categories,
-                    "average_rating": book_volume.volume_info.averageRating,
-                    "ratings_count": book_volume.volume_info.ratingsCount,
-                    "thumbnail": book_volume.volume_info.image_links.thumbnail
-                }
+                new_element = cls.json_static(book_volume)
                 filtered_book_volumes_list.append(new_element)
         return filtered_book_volumes_list
