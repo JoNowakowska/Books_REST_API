@@ -42,4 +42,4 @@ A Postman collection is saved in a file Books_REST_API_GoogleApi.postman_collect
 
 
 ## Database
-You can check the database schema by opening the database_design.txt file and pasting the code from there to a code interpreter at the dbdiagram.io website.
+You can check the database schema under the following link: https://dbdiagram.io/d/6003330a80d742080a369c64

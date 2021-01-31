@@ -1,4 +1,4 @@
-"""To see how the database looks like, paste the below code to the interpreter at the dbdiagram.io website."""
+"""To see how the database looks like, follow the link: https://dbdiagram.io/d/6003330a80d742080a369c64"""
 
 
 Table book_volume {
