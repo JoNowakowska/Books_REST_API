@@ -47,6 +47,6 @@ class Book(Resource):
 class BookID(Resource):
     def get(self, book_id):
         book_info = BookVolume.show_by_id(book_id)
-        return {
-                "book with id {}".format(book_id): book_info
-                }, 200
+        if book_info:
+            return {"Book with id {}".format(book_id): book_info}, 200
+        return {"message": "Book not found."}, 404
